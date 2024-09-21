@@ -1,10 +1,11 @@
 import { HeroSection } from '@/containers/Home/heroSection';
-import Image from 'next/image';
+import JobCarrouselSection from '@/containers/Home/jobCarrouselSection';
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <JobCarrouselSection />
     </>
   );
 }
