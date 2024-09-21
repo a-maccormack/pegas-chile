@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Pegas Chile',
-  description: '',
+  description: 'Más de 1400 publicaciones de trabajos de software en Chile.',
 };
 
 export default function RootLayout({
