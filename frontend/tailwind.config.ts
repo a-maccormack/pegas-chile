@@ -9,6 +9,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        "loop-scroll": "loop-scroll 60s linear infinite"
+      },
+      keyframes: {
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+      },
+      colors: {
+        'carrousel-gray': '#E9E9E9'
+      }
     },
   },
   plugins: [],
