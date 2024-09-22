@@ -1,12 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import Container from '@/components/Container/Container';
+import Container from '@/components/container';
 import fintualLogo from '@/assets/job-carrousel/fintual-logo.png';
 import cornerShopLogo from '@/assets/job-carrousel/cornershop-logo.png';
 import machLogo from '@/assets/job-carrousel/mach-logo.png';
 import mercadolibreLogo from '@/assets/job-carrousel/mercadolibre-logo.png';
-import { CompanyCard } from '@/components/CompanyCard/CompanyCard';
+import { CompanyCard } from '@/components/companyCard';
 
 const logoData = [
   { src: fintualLogo, alt: 'fintual logo', salary: '+$ 1M' },
