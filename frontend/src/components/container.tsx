@@ -1,5 +1,5 @@
-import React from 'react';
-import type { HTMLAttributes } from 'react';
+import React from "react";
+import type { HTMLAttributes } from "react";
 
 type ContainerProps = HTMLAttributes<HTMLDivElement>;
 
@@ -9,7 +9,7 @@ const Container: React.FC<ContainerProps> = ({
   ...otherProps
 }) => {
   return (
-    <div className={`w-[60%] mx-auto ${className || ''}`} {...otherProps}>
+    <div className={`mx-auto w-[60%] ${className || ""}`} {...otherProps}>
       {children}
     </div>
   );

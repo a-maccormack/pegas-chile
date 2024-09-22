@@ -1,5 +1,5 @@
-import { JobPost } from '@/app/types';
-import React, { useEffect, useState } from 'react';
+import { JobPost } from "@/app/types";
+import React, { useEffect, useState } from "react";
 import {
   CartesianGrid,
   Label,
@@ -9,7 +9,7 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-} from 'recharts';
+} from "recharts";
 
 interface SalaryChartProps {
   companyName: string;
@@ -23,8 +23,8 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
   const [chartData, setChartData] = useState<
     { date: string; salary: number | null }[]
   >([]);
-  const [salaryType, setSalaryType] = useState<'min' | 'middle' | 'upper'>(
-    'min'
+  const [salaryType, setSalaryType] = useState<"min" | "middle" | "upper">(
+    "min",
   );
 
   useEffect(() => {
@@ -33,13 +33,13 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
       const upperSalary = parseInt(jobPost.salary_range.max_bound) / 1000000;
       let salary: number | null = null;
 
-      if (salaryType === 'min') {
+      if (salaryType === "min") {
         salary = isNaN(minSalary) || minSalary === 0 ? null : minSalary;
-      } else if (salaryType === 'middle') {
+      } else if (salaryType === "middle") {
         const middleSalary = (minSalary + upperSalary) / 2;
         salary =
           isNaN(middleSalary) || middleSalary === 0 ? null : middleSalary;
-      } else if (salaryType === 'upper') {
+      } else if (salaryType === "upper") {
         salary = isNaN(upperSalary) || upperSalary === 0 ? null : upperSalary;
       }
 
@@ -54,18 +54,20 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
   }, [jobPosts, salaryType]);
 
   return (
-    <div className="mt-20">
+    <div className="h-fit flex-grow rounded-md border border-gray-200 px-4 pb-14 shadow-sm">
+      <h3 className="my-10 text-center font-bold">
+        Sueldos Historicos {companyName}
+      </h3>
       {jobPosts.length > 0 ? (
-        <div className="text-center mx-auto pb-10 h-40 sm:h-96 w-full">
-          <h3 className="my-10 font-bold">Sueldos Historicos {companyName}</h3>
+        <div className="mx-auto h-40 w-full pb-10 text-center sm:h-96 2xl:max-w-2xl">
           <div className="mb-5">
             <label className="mr-2">Selecciona el tipo de sueldo:</label>
             <select
               value={salaryType}
               onChange={(e) =>
-                setSalaryType(e.target.value as 'min' | 'middle' | 'upper')
+                setSalaryType(e.target.value as "min" | "middle" | "upper")
               }
-              className="border rounded px-3 py-2"
+              className="rounded border px-3 py-2"
             >
               <option value="min">Franja Inferior</option>
               <option value="middle">Promedio (Mín y Máx)</option>
@@ -79,7 +81,7 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
               <XAxis dataKey="date" />
               <YAxis dataKey="salary">
                 <Label
-                  className="hidden sm:block font-bold"
+                  className="hidden font-bold sm:block"
                   value="Sueldo ($M CLP)"
                   angle={-90}
                   position="insideLeft"

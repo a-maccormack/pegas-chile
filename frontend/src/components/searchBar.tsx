@@ -1,10 +1,10 @@
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Link from 'next/link';
-import React, { useEffect, useRef, useState } from 'react';
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
+import React, { useEffect, useRef, useState } from "react";
 
 interface SearchBarProps
-  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'onChange'> {
+  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, "onChange"> {
   onChange: (term: string) => void;
   searchResults: string[];
 }
@@ -32,7 +32,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
     setBlurTimeout(
       setTimeout(() => {
         setIsFocused(false);
-      }, 200)
+      }, 200),
     );
   };
 
@@ -48,12 +48,12 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.ctrlKey && event.key === 'k') {
+      if (event.ctrlKey && event.key === "k") {
         event.preventDefault();
         focusInput();
       }
 
-      if (event.key === 'Escape') {
+      if (event.key === "Escape") {
         if (inputRef.current) {
           inputRef.current.blur();
         }
@@ -61,10 +61,10 @@ const SearchBar: React.FC<SearchBarProps> = ({
       }
     };
 
-    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener("keydown", handleKeyDown);
       if (blurTimeout) {
         clearTimeout(blurTimeout);
       }
@@ -79,47 +79,58 @@ const SearchBar: React.FC<SearchBarProps> = ({
     onChange(event.target.value);
   };
 
+  const handleFormSubmit = (event: React.FormEvent) => {
+    event.preventDefault();
+    const searchTerm = inputRef.current?.value;
+    if (searchTerm) {
+      // TODO: replace with next navigation or sm
+      window.location.href = `/company/${searchTerm}`;
+    }
+  };
+
   return (
-    <div className="relative">
-      <div
-        className="ml-4 flex items-center gap-2 bg-gray-900 px-2 rounded-lg cursor-text"
-        onClick={handleDivClick}
-      >
-        <FontAwesomeIcon className="text-white h-4" icon={faSearch} />
-        <input
-          ref={inputRef}
-          className="rounded h-8 text-xs w-full pl-4 bg-transparent text-white outline-none"
-          placeholder="Busca empresa por nombre"
-          onChange={handleInputChange}
-          onFocus={handleInputFocus}
-          onBlur={handleInputBlur}
-          {...props}
-        />
-        <div className="text-white rounded bg-black w-4 text-center hidden sm:block">
-          ⌘
-        </div>
-        <div className="text-white rounded bg-black w-4 text-center hidden sm:block">
-          k
-        </div>
-      </div>
-      {isFocused && searchResults.length > 0 && (
+    <form onSubmit={handleFormSubmit}>
+      <div className="relative">
         <div
-          className="absolute ml-4 w-[calc(100%-1rem)] bg-black z-10"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          className="ml-4 flex cursor-text items-center gap-2 rounded-lg bg-gray-900 px-2"
+          onClick={handleDivClick}
         >
-          {searchResults.map((result, index) => (
-            <Link
-              href={`/company/${result}`}
-              key={index}
-              className="text-white p-2 hover:bg-gray-800 block visited:text-white visited:no-underline"
-            >
-              {result}
-            </Link>
-          ))}
+          <FontAwesomeIcon className="h-4 text-white" icon={faSearch} />
+          <input
+            ref={inputRef}
+            className="h-8 w-full rounded bg-transparent pl-4 text-xs text-white outline-none"
+            placeholder="Busca empresa por nombre"
+            onChange={handleInputChange}
+            onFocus={handleInputFocus}
+            onBlur={handleInputBlur}
+            {...props}
+          />
+          <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
+            ⌘
+          </div>
+          <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
+            k
+          </div>
         </div>
-      )}
-    </div>
+        {isFocused && searchResults.length > 0 && (
+          <div
+            className="absolute z-10 ml-4 w-[calc(100%-1rem)] bg-black"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            {searchResults.map((result, index) => (
+              <Link
+                href={`/company/${result}`}
+                key={index}
+                className="block p-2 text-white visited:text-white visited:no-underline hover:bg-gray-800"
+              >
+                {result}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    </form>
   );
 };
 

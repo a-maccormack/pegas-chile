@@ -1,5 +1,5 @@
-import Image, { StaticImageData } from 'next/image';
-import React from 'react';
+import Image, { StaticImageData } from "next/image";
+import React from "react";
 
 interface CompanyCardProps {
   src: StaticImageData;
@@ -16,13 +16,13 @@ export const CompanyCard: React.FC<CompanyCardProps> = ({
 }) => {
   return (
     <div
-      className={`flex items-center gap-2 w-24 md:w-40 align-middle md:flex ${className}`}
+      className={`flex w-24 items-center gap-2 align-middle md:flex md:w-40 ${className}`}
     >
       <div>
         <Image src={src} alt={alt} />
       </div>
       <div>
-        <p className="text-green-600 hidden md:text-3xl md:block font-bold w-max">
+        <p className="hidden w-max font-bold text-green-600 md:block md:text-3xl">
           {salary}
         </p>
       </div>
