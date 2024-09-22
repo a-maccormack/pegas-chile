@@ -13,6 +13,10 @@ interface SimilarCompanyNamesResponse {
     companies: string[]
 }
 
+interface TechnologiesByCompanyNameResponse {
+    technologies: string[]
+}
+
 class ApiService {
     private axiosInstance: AxiosInstance;
 
@@ -51,6 +55,16 @@ class ApiService {
             return response;
         } catch (error) {
             console.error('GetJobPostsByCompanyName request failed', error);
+            throw error;
+        }
+    }
+
+    public async getTechnologiesByCompanyName(companyName: string): Promise<AxiosResponse<TechnologiesByCompanyNameResponse>> {
+        try {
+            const response = await this.axiosInstance.get(`/search/technologiesByCompanyName?companyName=${companyName}`);
+            return response;
+        } catch (error) {
+            console.error('GetTechnologiesByCompanyName request failed', error);
             throw error;
         }
     }
