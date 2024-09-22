@@ -31,7 +31,6 @@ const remoteWorkIcons: Record<string, any> = {
 };
 
 export const JobPostCard: React.FC<JobPostCardProps> = ({ jobPost }) => {
-  console.log(jobPost);
   const formatSalaryRange = () => {
     const minBound = parseInt(jobPost.salary_range.min_bound) / 1000000;
     const maxBound = parseInt(jobPost.salary_range.max_bound) / 1000000;

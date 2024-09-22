@@ -49,7 +49,6 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
       };
     });
 
-    console.log(data);
     setChartData(data);
   }, [jobPosts, salaryType]);
 

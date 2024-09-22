@@ -18,7 +18,6 @@ function Navbar() {
         try {
           const response =
             await apiService.searchForCompaniesByTerm(searchTerm);
-          console.log();
           setSearchResults(response.data.companies);
         } catch (error) {
           console.error("Error fetching search results:", error);
