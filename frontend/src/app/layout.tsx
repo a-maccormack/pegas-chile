@@ -1,13 +1,13 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import Navbar from '@/components/NavBar/Navbar';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/navbar";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Pegas Chile',
-  description: 'Más de 1400 publicaciones de trabajos de software en Chile.',
+  title: "Pegas Chile",
+  description: "Más de 1400 publicaciones de trabajos de software en Chile.",
 };
 
 export default function RootLayout({
