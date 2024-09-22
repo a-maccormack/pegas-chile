@@ -16,6 +16,7 @@ export type JobPost = {
   salary_range: {
     min_bound: string;
     max_bound: string;
+    currency: string;
   };
   technologies: string[];
 };
