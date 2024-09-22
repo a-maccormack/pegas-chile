@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import { JobPost } from '@/app/types';
-import Container from '@/components/Container/Container';
-import { CompanyHeaderSection } from '@/containers/CompanyPage/companyHeaderSection';
-import { SalaryChartSection } from '@/containers/CompanyPage/salaryChartSection';
-import ApiService from '@/services/apiService';
-import { useEffect, useState } from 'react';
+import { JobPost } from "@/app/types";
+import Container from "@/components/container";
+import { CompanyHeaderSection } from "@/containers/CompanyPage/companyHeaderSection";
+import { CompanyPostsSection } from "@/containers/CompanyPage/companyPostsSection";
+import ApiService from "@/services/apiService";
+import { useEffect, useState } from "react";
 
-export const runtime = 'edge';
+export const runtime = "edge";
 
 export default function CompanyPage({
   params,
@@ -15,7 +15,7 @@ export default function CompanyPage({
   params: { companyName: string };
 }) {
   const apiService = new ApiService();
-  const [companyName, setCompanyName] = useState('');
+  const [companyName, setCompanyName] = useState("");
   const [companyJobPosts, setCompanyJobPosts] = useState<JobPost[]>([]);
 
   useEffect(() => {
@@ -27,9 +27,9 @@ export default function CompanyPage({
   }, [params.companyName]);
 
   return (
-    <Container>
+    <Container className="!w-[90%] sm:!w-[60%]">
       <CompanyHeaderSection companyName={companyName} />
-      <SalaryChartSection
+      <CompanyPostsSection
         companyName={companyName}
         companyJobPosts={companyJobPosts}
       />
