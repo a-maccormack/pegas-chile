@@ -100,7 +100,7 @@ class JobScraper:
         """Extracts the date and time of the job post."""
         if "title" in date_tag.attrs:
             date_str = date_tag["title"]
-            date, time = date_str.split()
+            date, time, timezone = date_str.split()
             day, month, year = date.split(".")
             return {"day": day, "month": month, "year": year, "time": time}
         return {}
@@ -181,4 +181,4 @@ class JobScraper:
 
 
 job_scraper = JobScraper()
-job_scraper.process_messages()
+job_scraper.extract_details()
