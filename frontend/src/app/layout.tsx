@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 
-import Head from "next/head";
-
 const inter = Inter({ subsets: ["latin"] });
 
 const metaData = {
@@ -17,6 +15,24 @@ const metaData = {
 export const metadata: Metadata = {
   title: metaData.title,
   description: metaData.description,
+  openGraph: {
+    title: metaData.title,
+    description: metaData.description,
+    images: [
+      {
+        url: metaData.imageUrl,
+        alt: "Pegas Chile Banner",
+      },
+    ],
+    url: metaData.url,
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: metaData.title,
+    description: metaData.description,
+    images: [metaData.imageUrl],
+  },
 };
 
 export default function RootLayout({
@@ -26,26 +42,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <>
-        <Head>
-          {/* Browser */}
-          <title>{metaData.title}</title>
-          <meta name="description" content={metaData.description} />
-
-          {/* OpenGraph */}
-          <meta property="og:title" content={metaData.title} />
-          <meta property="og:description" content={metaData.description} />
-          <meta property="og:image" content={metaData.imageUrl} />
-          <meta property="og:url" content={metaData.url} />
-          <meta property="og:type" content="article" />
-
-          {/* Twitter */}
-          <meta name="twitter:title" content={metaData.title} />
-          <meta name="twitter:description" content={metaData.description} />
-          <meta name="twitter:image" content={metaData.imageUrl} />
-          <meta name="twitter:card" content="summary_large_image" />
-        </Head>
-      </>
       <body className={inter.className}>
         <Navbar />
         {children}
