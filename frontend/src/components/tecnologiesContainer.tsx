@@ -32,22 +32,34 @@ import {
 import { faDatabase, faCode } from "@fortawesome/free-solid-svg-icons";
 
 interface TechnologiesContainerProps {
+  jobId?: number;
   companyName: string;
 }
 
 export const TecnologiesContainer: React.FC<TechnologiesContainerProps> = ({
   companyName,
+  jobId,
 }) => {
   const apiService = new ApiService();
   const [companyTechnologies, setCompanyTechnologies] = useState<string[]>([]);
 
   useEffect(() => {
     if (companyName) {
-      apiService.getTechnologiesByCompanyName(companyName).then((response) => {
-        setCompanyTechnologies(response.data.technologies);
-      });
+      if (jobId) {
+        apiService
+          .getTechnologiesByPostId(jobId.toString())
+          .then((response) => {
+            setCompanyTechnologies(response.data);
+          });
+      } else {
+        apiService
+          .getTechnologiesByCompanyName(companyName)
+          .then((response) => {
+            setCompanyTechnologies(response.data.technologies);
+          });
+      }
     }
-  }, [companyName]);
+  }, [companyName, jobId]);
 
   const technologyIconMap: { [key: string]: any } = {
     javascript: faJs,
