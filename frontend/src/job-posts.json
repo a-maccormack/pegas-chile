@@ -48483,5 +48483,358 @@
             "testing automatizado"
         ],
         "id": 1530
+    },
+    {
+        "sender": "@simoneraty",
+        "contact_email": [
+            "tecnologia@woomup.cl"
+        ],
+        "contact_phone": [],
+        "links": [
+            "https://frost-ceiling-ee9.notion.site/te-estamos-buscando-3eaff6bb04b542c7bec367e89784ed3a?pvs=4"
+        ],
+        "text": "Oferta Laboral - Ingeniero/a de Software\ud83d\ude0e\n\u00a1Hola! En WoomUp estamos en la b\u00fasqueda de Ingeniero/a de Software.\nNos interesan personas motivadas, comprometidas y con ganas de aprender.\nBuscamos profesionales que sean capaces de no s\u00f3lo desarrollar, sino que ser un aporte en el negocio.\nTe integrar\u00e1s a un equipo de desarrollo, compenetr\u00e1ndote en el proyecto en desarrollo y su contexto. Deber\u00e1s levantar requisitos, dise\u00f1ar soluciones y administrar infraestructura, adem\u00e1s de mantener una comunicaci\u00f3n fluida con clientes.\nBuscamos personas con las siguientes habilidades:\n \u2022 Proactividad y ganas de proponer.\n \u2022 Trabajo en equipo y disposici\u00f3n para ayudar al resto.\n \u2022 Habilidades blandas y capacidad para tener contacto con clientes internos y externos.\n \u2022 Orden y disciplina.\nRequisitos\n- Titulo de Ingenier\u00eda Civil con alguna menci\u00f3n o especialidad en computaci\u00f3n\n- Experiencia en desarrollo web y utilizando frameworks basados en Node.Js\nBeneficios\n \u2022 Vestimenta casual\n \u2022 4 semanas de vacaciones\n \u2022 Los viernes trabajamos hasta las 2.\ud83d\udd7a\n \u2022 La tarde de tu cumplea\u00f1os libre.\nRenta\n \u2022 Desde $1.500.000 seg\u00fan experiencia.\n\u00a1Te esperamos! Si quieres conversar y saber m\u00e1s de nosotros o la oferta. Env\u00edanos tu CV o d\u00e9janos tus dudas al correo \ntecnologia@woomup.cl\n.\nhttps://frost-ceiling-ee9.notion.site/Te-estamos-buscando-3eaff6bb04b542c7bec367e89784ed3a?pvs=4",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "13:44:18"
+        },
+        "company_name": "WoomUp",
+        "remote_work_policy": "in person",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1500000,
+            "max_bound": null
+        },
+        "technologies": [
+            "Node.Js"
+        ],
+        "id": 1531
+    },
+    {
+        "sender": "@claguirre",
+        "contact_email": [
+            "carlos@edugami.pro"
+        ],
+        "contact_phone": [],
+        "links": [
+            "www.edugami.pro",
+            "https://forms.gle/8rneytbuys4q3n5b9"
+        ],
+        "text": "En Edugami \ud83e\udd8a estamos en b\u00fasqueda de un Software Engineer. Si eres Ingenierx en Desarrollo de Software, TI o Computaci\u00f3n, o buscas hacer tu trabajo de t\u00edtulo para estas carreras puedes postular. \nSomos una EdTech que empodera a los docentes en su rol pedag\u00f3gico \ud83d\ude80 \ud83d\udc69\u200d\ud83c\udfeb. Combinamos herramientas avanzadas, inteligencia artificial y recursos did\u00e1cticos innovadores para que puedan impartir clases de manera inspiradora y eficaz. Nuestro objetivo es hacer que la evaluaci\u00f3n formativa sea sencilla, intuitiva y efectiva en todas las aulas.\nAcabamos de ganar el proyecto de Startup Ciencias (Anid) para poder ejecutar evaluaci\u00f3n formativa en el Aula. Llevamos ~3 a\u00f1os trabajando, tenemos m\u00e1s de + 30 colegios, + 1600 profesores y + 28.000 alumnos!!. \nTendr\u00e1s la oportunidad de trabajar con un equipo multidisciplinario en uno de los problemas m\u00e1s desafiantes y de mayor impacto en el mundo: \u00a1La educaci\u00f3n!. \n Oferta Laboral\n \n  - Stock options en funci\u00f3n del cargo con alto potencial de crecimiento\n  - Sueldo liquido desde ~1.4 - 2.2M seg\u00fan cargo y experiencia, el cual se ir\u00e1 ajustando con el crecimiento  de edugami\n  - 20 d\u00edas de vacaciones al a\u00f1o. \n  - Horario flexible\n  - 2 d\u00edas en oficina (Apoquindo 5555, Las Condes) y 3 d\u00edas remoto.\n  - Posibilidad de 4 semanas full remoto al a\u00f1o.\n  - Full time\n \nRequisitos\n  - Inter\u00e9s en el producto \ud83d\ude00\n  - Ruby on Rails (o alg\u00fan framework parecido Django)\n  - Vue 3 (o alg\u00fan framework parecido React). \n  - Manejo de Typescript/JS\n  - Manejo de Git\nDeseables pero no importantes \ud83d\ude09 (Ya que ayudar\u00eda un mont\u00f3n) \n   - AWS, Docker/Kubernetes\n   - Alguna experiencia con frameworks de VideoJuegos: Phaser, Scratch\n   - Alguna experiencia en ~ML/IA\n   - Prompt Engineering\n\u00bfPor qu\u00e9 unirse a Edugami? \n   - Aprender\u00e1s de cerca c\u00f3mo es una startup en etapa temprana, de alto crecimiento y con prop\u00f3sito <3. \n   - Ser parte de las decisiones t\u00e9cnicas claves de producto \n   - Trabajar y aprender con un equipo interdisciplinario de alto nivel. \n   - Dise\u00f1ar documentos de dise\u00f1o e implementarlos.\n   - \nPuedes saber m\u00e1s de nosotros en \nwww.edugami.pro\n Si te interesa, postula aqu\u00ed: \"\nhttps://forms.gle/8rneyTBUyS4q3N5B9\n\". Si tienes cualquier duda, hablemos! +569 944 05 326 o \ncarlos@edugami.pro\n.",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "13:45:51"
+        },
+        "company_name": "Edugami",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1400000,
+            "max_bound": 2200000
+        },
+        "technologies": [
+            "Ruby on Rails",
+            "Django",
+            "Vue 3",
+            "React",
+            "Typescript",
+            "JavaScript",
+            "Git",
+            "AWS",
+            "Docker",
+            "Kubernetes",
+            "Phaser",
+            "Scratch",
+            "ML",
+            "IA",
+            "Prompt Engineering"
+        ],
+        "id": 1532
+    },
+    {
+        "sender": "@Pancho9494",
+        "contact_email": [
+            "ejorquera@maquintel.com"
+        ],
+        "contact_phone": [],
+        "links": [
+            "https://forms.office.com/r/fllxriihni"
+        ],
+        "text": "Oferta puesto Ingeniero de Software - Maquintel Robotics\nEl equipo de Maquintel Robotic Services est\u00e1 creciendo y abrimos un puesto de Ingeniero de Software para nuestra \u00e1rea de desarrollo.\nResumen del Cargo:\nComo Ingeniero de Software, ser\u00e1s responsable de desarrollar y optimizar herramientas de software para la recolecci\u00f3n, an\u00e1lisis y procesamiento de datos generados por nuestros sistemas rob\u00f3ticos. Este rol incluye la programaci\u00f3n, manejo y an\u00e1lisis de grandes conjuntos de datos y la aplicaci\u00f3n de t\u00e9cnicas de procesamiento de im\u00e1genes, datos espaciales, lecturas de sensores, entre otros.\nResponsabilidades Clave:\n- Desarrollar y mantener software para la recolecci\u00f3n y procesamiento de datos de robots.\n- Crear herramientas de an\u00e1lisis de los datos recolectados por los sistemas rob\u00f3ticos para derivar ideas accionables y reportabilidad.\n- Implementar y optimizar algoritmos para tareas de procesamiento de im\u00e1genes, an\u00e1lisis de nubes de puntos, procesamiento de datos de sensores, entre otros.\n- Colaborar con ingenieros de hardware para asegurar una integraci\u00f3n fluida de los componentes de software y hardware.\n- Dise\u00f1ar y ejecutar experimentos para validar el rendimiento y la precisi\u00f3n del software.\n- Documentar el c\u00f3digo y los procesos de manera clara y mantener el control de versiones utilizando herramientas como Git.\nHabilidades Espec\u00edficas:\n- Dominio de Python, C++ deseable\n- Manejo de terminales basados en Unix/Linux.\n- Fuertes habilidades en an\u00e1lisis de datos utilizando bibliotecas como Pandas, NumPy y SciPy.\n- Experiencia pr\u00e1ctica con OpenCV para tareas de procesamiento de im\u00e1genes.\n- Familiaridad con bibliotecas y marcos de aprendizaje autom\u00e1tico como PyTorch, TensorFlow, Keras para aplicaciones relacionadas con la visi\u00f3n.\n- Dominio de sistemas de control de versiones (por ejemplo, Git).\n- Capacidad para crear visualizaciones y/o dashboards para presentar comprensivamente la informaci\u00f3n extra\u00edda de los datos. Uso de herramientas de visualizaci\u00f3n como Matplotlib, Seaborn o similares.\n- Capacidad para hacer entrega de herramientas y conocimiento de software para su uso por usuarios no expertos.\n- Familiaridad con plataformas en la nube (por ejemplo, AWS, Azure, Google Cloud) para almacenamiento y procesamiento de datos (deseable).\n- Sistemas Rob\u00f3ticos ROS/ROS2 (deseable):\n \nHabilidades Blandas\n -  Resoluci\u00f3n de Problemas \n -  Fuertes habilidades anal\u00edticas y para la resoluci\u00f3n de problemas.\n -  Capacidad para trabajar de manera efectiva en equipos multidisciplinarios.\n -  Fuertes habilidades de comunicaci\u00f3n y colaboraci\u00f3n.\nFormato presencial jornada completa, con flexibilidad para teletrabajo ante situaciones particulares\nRemuneraci\u00f3n desde $1.500.000\nLas postulaciones se realizan en el siguiente formulario:\nhttps://forms.office.com/r/FLLxriihni\n \nConsultas al correo \nejorquera@maquintel.com",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "13:52:06"
+        },
+        "company_name": "Maquintel Robotics",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1500000,
+            "max_bound": null
+        },
+        "technologies": [
+            "Python",
+            "C++",
+            "Unix/Linux",
+            "Pandas",
+            "NumPy",
+            "SciPy",
+            "OpenCV",
+            "PyTorch",
+            "TensorFlow",
+            "Keras",
+            "Git",
+            "Matplotlib",
+            "Seaborn",
+            "AWS",
+            "Azure",
+            "Google Cloud",
+            "ROS",
+            "ROS2"
+        ],
+        "id": 1533
+    },
+    {
+        "sender": "@ejimenezcohen",
+        "contact_email": [],
+        "contact_phone": [],
+        "links": [],
+        "text": "Somos Bluetek, una plataforma IoT para gesti\u00f3n y automatizaci\u00f3n de procesos. Nuestra misi\u00f3n es ayudar a industrias como la miner\u00eda, construcci\u00f3n y el retail a alcanzar sus objetivos de sustentabilidad utilizando tecnolog\u00eda. Ser\u00e1s parte de un equipo de desarrollo joven, \u00e1gil y multidisciplinario. Buscamos personas con mucha motivaci\u00f3n, proactividad y con ganas de pasarlo bien para apoyar en el desarrollo de nuestra plataforma de gesti\u00f3n de contaminantes en la nube. \n \n\u25cf Descripci\u00f3n del cargo y principales funciones: \n \nNos encontramos en busca de un desarrollador Fullstack, quien tiene la importante tarea de participar activamente en el desarrollo de nuevas soluciones en la nube, adem\u00e1s de llevar a cabo implementaciones con clientes de distintas industrias; esto en el marco de soluciones de gesti\u00f3n medioambiental, trazabilidad en HSEC y eficiencia energ\u00e9tica. Trabajar\u00e1s codo a codo con un equipo experto en soluciones IoT, tanto a nivel t\u00e9cnico como de negocios, siendo una pieza clave en la tarea de transformar las necesidades de los clientes en soluciones que ayuden a construir un mejor futuro para las industrias. \n \n\u25cf Funciones Espec\u00edficas: \n \n\u25cb Dise\u00f1o de arquitectura de software escalable en ecosistema Microsoft Azure. \n\u25cb Despliegue y mantenimiento de proyectos (DevOps) \n\u25cb Dise\u00f1o y mantenimiento de bases de datos. \n\u25cb Integraci\u00f3n de fuentes de datos desde distintos servicios a Bluetek Cloud. \n\u25cb Propuesta y desarrollo de herramientas de inteligencia de negocios. \n \n\u25cf Requisitos M\u00ednimos (indispensables): \n \n\u25cb Ingeniero Civil titulado de Ingenieria Informatica, Ingenieria Civil en Computaci\u00f3n o afines. \n\u25cb Disponibilidad para trabajar en formato h\u00edbrido en Lo Barnechea, Santiago, 3 d\u00edas a la semana. \n\u25cb Ingl\u00e9s intermedio-avanzado. \n \n \n \n\u25cf Requisitos T\u00e9cnicos: \n \n\u25cb Back-end: Python, C# (.NET), JavaScript, Node.js. \n\u25cb Front-end: React, Vue. \n\u25cb Experiencia en dise\u00f1o y consulta de bases de datos (Azure Data Explorer, MongoDB y SQL). \n\u25cb Herramientas de contenedorizaci\u00f3n: Docker, Kubernetes. \n\u25cb Herramientas de control de flujo: Github. \n\u25cb Experiencia con desarrollo en entornos Cloud: Azure, AWS u otros. \n\u25cb Experiencia en desarrollo e integraci\u00f3n de REST API, OData, etc. \n\u25cb Experiencia en desarrollo de aplicaciones web y m\u00f3viles. \n \n\u25cf Deseable: \n \n\u25cb Conocimiento te\u00f3rico o aplicado en relaci\u00f3n con buenas pr\u00e1cticas de ciberseguridad. \n\u25cb Experiencia con arquitecturas IoT. \n\u25cb Experiencia con Power BI, Looker, o similares. \n\u25cb Experiencia en ciencia de datos. \n\u25cb Experiencia en UX/UI.\nRenta l\u00edquida: 1.3 - 1.8 M CLP dependiendo de la experiencia",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "13:53:48"
+        },
+        "company_name": "Bluetek",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1300000,
+            "max_bound": 1800000
+        },
+        "technologies": [
+            "Python",
+            "C# (.NET)",
+            "JavaScript",
+            "Node.js",
+            "React",
+            "Vue",
+            "Azure Data Explorer",
+            "MongoDB",
+            "SQL",
+            "Docker",
+            "Kubernetes",
+            "Github",
+            "Azure",
+            "AWS"
+        ],
+        "id": 1534
+    },
+    {
+        "sender": "@calvarez33",
+        "contact_email": [
+            "calvarez@dily.cl"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "En Dily ofrecemos un software de automotora con una propuesta de valor \u00fanica en el mercado. Nuestra plataforma online permite gestionar cr\u00e9ditos, pagos, transferencias y otros productos de manera 100% digital.\n\u00a1Somos un equipo de 40 personas! La empresa est\u00e1 creciendo, y en esta oportunidad buscamos seguir ampliando nuestro equipo TI\nHoy buscamos hasta 4 puestos de Desarrollador Fullstack full-time que entren en septiembre y octubre \ud83c\udfb8 \ud83e\udd18\ud83c\udffc\n\u00bfTus responsabilidades? \ud83d\udcca\u265f\ufe0f\ud83d\udca1\nDesarrollar aplicaciones web usando Angular, Node.js + typescript y el entorno de AWS\nImplementar c\u00f3digo escalable usando Domain Driven Design y las mejores pr\u00e1cticas de desarrollo\nParticipar del dise\u00f1o de software y toma de decisiones junto con tu equipo.\n\u00bfRequerimientos del cargo? \ud83e\udde9\ud83d\udc41\ufe0f\ud83e\uddee\nFullstack Jr: Se busca egresado o Titulado de Ingenier\u00eda Civil menci\u00f3n C.Computaci\u00f3n o similar.\nFullstack Semi Senior: Titulado de Ingenier\u00eda, y hasta 3 a\u00f1os de experiencia relevante en el stack Angular, Nodejs, AWS y Mysql.\nProactividad para la resoluci\u00f3n de problemas.\n\u00bfQu\u00e9 ofrecemos? \ud83c\udfb8\ud83d\ude80\ud83e\udde8\nIncorporarte a un equipo de desarrollo con experiencia, motivado y creciente.\nR\u00e1pido aprendizaje y crecimiento profesional basado en nuestro Engineering Ladder\nBeneficios \ud83d\udd0e\ud83c\udfb0\ud83e\ude84\nFeriado en tu cumplea\u00f1os \ud83c\udf82\ud83c\udf88\nOportunidades de crecimiento dentro del equipo \ud83c\udfd4\ufe0f\ud83e\uddd7\ud83c\udffb\u200d\u2642\ufe0f\nModalidad H\u00edbrida \ud83e\uddd8\ud83c\udffb\u200d\u2640\ufe0f\ud83e\udeb7\nNo hay c\u00f3digo de vestimenta \ud83d\udc55\ud83d\udc56\nExcelente clima laboral \ud83c\udf89\ud83e\udd39\ud83c\udffb\u200d\u2640\ufe0f\nCaja de Compensaci\u00f3n Los Andes \ud83c\udfac\ud83c\udfad\nSeguro complementario de Salud \ud83c\udf4e\ud83e\ude7a\nSueldo l\u00edquido de $1.2M-2.5M. \ud83d\udcb8 dependiendo de experiencia \n\u00a1\u00a1Y mucho m\u00e1s!! \ud83d\udc8e\u2728\nSi est\u00e1s interesado, por favor cont\u00e1ctanos a mailto:\ncalvarez@dily.cl\n\u00a1Te esperamos!",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "13:59:18"
+        },
+        "company_name": "Dily",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1200000,
+            "max_bound": 2500000
+        },
+        "technologies": [
+            "Angular",
+            "Node.js",
+            "TypeScript",
+            "AWS",
+            "MySQL"
+        ],
+        "id": 1535
+    },
+    {
+        "sender": "@catalinamusalem",
+        "contact_email": [
+            "personas@kiosclub.com"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "En KiosClub, estamos en b\u00fasqueda de una persona altamente motivada y orientada a los resultados para unirse a nosotros como Analista de Operaciones TI de nuestras tiendas de conveniencia.  \ud83c\udfaf Tu objetivo principal ser\u00e1 gestionar sistemas de informaci\u00f3n y tecnolog\u00eda, coordinando los proyectos inform\u00e1ticos de la empresa con proveedores externos y administrando servidores, plataformas web y bases de datos. \ud83d\udcbb\ud83d\udd27\nPrincipales funciones:\n\ud83d\udd39 Dise\u00f1ar, implementar y mantener sistemas de informaci\u00f3n y tecnolog\u00eda para la empresa.\n\ud83d\udd39 Analizar y evaluar los requerimientos tecnol\u00f3gicos de la organizaci\u00f3n.\n\ud83d\udd39 Desarrollar estrategias y soluciones tecnol\u00f3gicas que satisfagan las necesidades empresariales.\n\ud83d\udd39 Identificar y solucionar problemas t\u00e9cnicos relacionados con sistemas y tecnolog\u00edas.\n\ud83d\udd39 Asesorar t\u00e9cnicamente y administrativamente los proyectos asignados.\n\ud83d\udd39 Gestionar proyectos de implementaci\u00f3n de tecnolog\u00edas y sistemas de informaci\u00f3n.\n\ud83d\udd39 Ser contraparte t\u00e9cnica en temas inform\u00e1ticos con proveedores externos.\n\ud83d\udd39 Capacitar a los usuarios en el uso de sistemas y tecnolog\u00edas.\n\ud83d\udd39 Establecer y mantener pol\u00edticas de seguridad para sistemas y tecnolog\u00edas.\n\ud83d\udd39 Mantenerse actualizado con las tendencias y avances tecnol\u00f3gicos aplicables a la empresa.\n\ud83d\udd39 Brindar soporte t\u00e9cnico a los usuarios de las plataformas.\n\ud83d\udd39 Preparar informes sobre el estado de avance de proyectos inform\u00e1ticos y resolver problemas t\u00e9cnicos en su implementaci\u00f3n.\nCondiciones:\n\u2022\u2060  \u2060\ud83d\udd57 Horario: Lunes a Jueves de 08:00 a 17:30 hrs, viernes de 08:00 a 16:00 hrs\n\u2022\u2060  \u2060\ud83c\udfe2 Modalidad: Presencial.\n\u2022\u2060  \u2060\ud83d\udccd Ubicaci\u00f3n: Comuna de Las Condes.\n\u2022\u2060  \u2060\ud83d\udcdc Contrato: Plazo fijo, luego indefinido.\n\u2022\u2060  \u2060\ud83d\udcb0 Remuneraci\u00f3n: Entre 1.5 y 2.5 MM segun experiencia\nRequisitos:\n\u2022\u2060  \u2060\ud83c\udf93 Estudios en Ingenier\u00eda en Inform\u00e1tica o carreras afines.\n\u2022\u2060  \u2060\ud83d\udee0 Experiencia previa en dise\u00f1o, implementaci\u00f3n y gesti\u00f3n de sistemas de informaci\u00f3n y tecnolog\u00eda.\n\u2022\u2060  \u2060\ud83d\udcbb Conocimientos s\u00f3lidos de programaci\u00f3n, bases de datos, redes, sistemas operativos y tecnolog\u00edas web.\n\u2022\u2060  \u2060\ud83d\udd0d Capacidad para analizar y evaluar requerimientos tecnol\u00f3gicos.\n\u2022\u2060  \u2060\ud83e\udd1d Habilidad para trabajar en equipo y comunicarse efectivamente con diferentes \u00e1reas de la organizaci\u00f3n.\n\u2022\u2060  \u2060\ud83d\udd10 Conocimientos de pol\u00edticas y est\u00e1ndares de seguridad en sistemas y tecnolog\u00edas de la informaci\u00f3n.\nPuedes postular directamente al correo \npersonas@kiosclub.com\n \ud83c\udf1f",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "13:59:52"
+        },
+        "company_name": "KiosClub",
+        "remote_work_policy": "in person",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1500000,
+            "max_bound": 2500000
+        },
+        "technologies": [
+            "programaci\u00f3n",
+            "bases de datos",
+            "redes",
+            "sistemas operativos",
+            "tecnolog\u00edas web"
+        ],
+        "id": 1536
+    },
+    {
+        "sender": "@idgfpv",
+        "contact_email": [
+            "info@ruklo.cl"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "[Oferta de Pr\u00e1ctica / Trabajo part-time] - Ruklo\n\ud83c\udf1f En Ruklo creemos que las relaciones cercanas y duraderas entre empresas y clientes son la clave del \u00e9xito. Ofrecemos una plataforma intuitiva y f\u00e1cil de usar que permite a las empresas dise\u00f1ar estrategias de fidelizaci\u00f3n efectivas y personalizadas, analizando datos en tiempo real para optimizar cada interacci\u00f3n y mejorar la experiencia del cliente.\n\ud83d\ude80 Estamos en una etapa inicial de crecimiento y buscamos a un desarrollador motivado que acompa\u00f1e a nuestro CTO en el desarrollo del producto. Ganamos el desaf\u00edo X de Mallplaza, y eso ha sido solo el comienzo de una trayectoria con muchas oportunidades. Si te apasiona el mundo del software, el emprendimiento y est\u00e1s buscando un lugar donde puedas crecer y desarrollarte, \u00a1queremos conocerte!\n\u00bfQu\u00e9 har\u00e1s en Ruklo?\n- Trabajar mano a mano con el CTO en la creaci\u00f3n de nuevas funcionalidades para nuestra plataforma.\n- Contribuir al dise\u00f1o y desarrollo de soluciones escalables, eficientes y f\u00e1ciles de usar.\n- Participar activamente en decisiones t\u00e9cnicas y estrat\u00e9gicas clave.\nLo que buscamos:\n- Estudiante o egresado de Ingenier\u00eda en Computaci\u00f3n, Software, TI o carrera af\u00edn.\n- Conocimientos b\u00e1sicos de desarrollo web y manejo de bases de datos (usamos Next.js, TypeScript y PostgreSQL).\n- Inter\u00e9s en el mundo del emprendimiento, con ganas de crecer y asumir responsabilidades dentro de Ruklo.\n- Actitud proactiva, aut\u00f3noma y con capacidad para aprender r\u00e1pido.\nLo que ofrecemos:\n- \ud83d\udcbb Trabajo remoto con flexibilidad de horarios. 20 horas semanales.\n- \ud83d\udc65 Oportunidad de trabajar directamente con el CTO en un equipo peque\u00f1o, en una empresa con muchas oportunidades de crecimiento.\n- \ud83d\udcb8 Remuneraci\u00f3n desde 400.000 CLP hasta 600.000 CLP seg\u00fan experiencia y posibilidad de stock-options a futuro.\n- La posibilidad de formar parte de un proyecto en expansi\u00f3n y quedarte con nosotros a largo plazo.\nSi est\u00e1s buscando una oportunidad para aprender, crecer y aportar en un proyecto con gran proyecci\u00f3n, \u00a1escr\u00edbenos a \ninfo@ruklo.cl\n o env\u00edanos tu CV por \n!",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "14:00:25"
+        },
+        "company_name": "Ruklo",
+        "remote_work_policy": "remote",
+        "employment_type": "practica",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 400000,
+            "max_bound": 600000
+        },
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "PostgreSQL"
+        ],
+        "id": 1537
+    },
+    {
+        "sender": "@TheAonikenk",
+        "contact_email": [
+            "martin.pincheira@seidor.com"
+        ],
+        "contact_phone": [],
+        "links": [
+            "https://www.seidor.com/es-cl/"
+        ],
+        "text": "Seidor est\u00e1 en b\u00fasqueda de estudiantes en pr\u00e1ctica o reci\u00e9n egresados para unirse a su equipo de Inteligencia Artificial, con oportunidades remuneradas bajo contrato full-time y sueldo mensual en los siguientes cargos:\n    Ingeniero FullStack: Responsable del despliegue de modelos de IA en la nube (GCP, AWS, Azure) y de la integraci\u00f3n de APIs.\n    Data Scientist: Enfocado en la manipulaci\u00f3n de bases de datos, an\u00e1lisis estad\u00edstico y preparaci\u00f3n de datos para modelos de IA.\nOfrecemos un ambiente de trabajo amigable, con horario flexible para cumplir 40 horas semanales y modalidad h\u00edbrida (asistencia presencial 2 veces por semana en nuestras oficinas, ubicadas a pasos del metro El Golf). Adem\u00e1s, brindamos la oportunidad de obtener certificaciones relevantes en plataformas tecnol\u00f3gicas y con partners estrat\u00e9gicos de la empresa.\nEl sueldo ser\u00e1 definido durante la entrevista con el encargado del \u00e1rea, en funci\u00f3n del valor de mercado, del cargo y de la experiencia del candidato.\nEjemplo: 300 mil l\u00edquido + comisi\u00f3n por desempe\u00f1o para estudiante de ingenier\u00eda en pr\u00e1ctica 2.\nPara m\u00e1s informaci\u00f3n, cont\u00e1ctame por interno o env\u00eda un correo a \nmartin.pincheira@seidor.com\n.\nhttps://www.seidor.com/es-cl/",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "14:01:20"
+        },
+        "company_name": "Seidor",
+        "remote_work_policy": "hybrid",
+        "employment_type": "practica",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 300000,
+            "max_bound": null
+        },
+        "technologies": [
+            "GCP",
+            "AWS",
+            "Azure"
+        ],
+        "id": 1538
+    },
+    {
+        "sender": "@vzehnder",
+        "contact_email": [
+            "vicente.zehnder@trinityenergy.cl",
+            "liliana.vidal@trinityenergy.cl"
+        ],
+        "contact_phone": [],
+        "links": [
+            "https://future-motorcycle-90a.notion.site/trabajo-de-t-tulo-creaci-n-erp-interno-10ac92e7589980258297df97cd94c8c7?pvs=4"
+        ],
+        "text": "\u00a1Oportunidad para tu trabajo de t\u00edtulo en Trinity Energy Group!\nEstamos buscando un/a Ingeniero/a Civil en TI (o carrera af\u00edn) reci\u00e9n egresado/a o en proceso de titulaci\u00f3n, para liderar un proyecto clave en nuestra transformaci\u00f3n digital. Si te interesa desarrollar un ERP interno que integre todos los procesos de la compa\u00f1\u00eda y facilite la toma de decisiones estrat\u00e9gicas mediante Business Intelligence, esta es tu oportunidad.\nEl Proyecto: El objetivo es crear una plataforma que permita la recolecci\u00f3n de datos operativos, su almacenamiento en una base de datos en la nube, el procesamiento avanzado de la informaci\u00f3n y la visualizaci\u00f3n de m\u00e9tricas estrat\u00e9gicas en tiempo real. \nTrabajar\u00e1s en m\u00f3dulos que incluyen:\n- Recolecci\u00f3n de datos: Web scraping y formularios en Google AppSheets.\n- Almacenamiento en CloudSQL.\n- Procesamiento con Cloud Functions.\n- Visualizaci\u00f3n de datos en Looker Studio y Google Sheets.\nLo que ofrecemos:\n- Flexibilidad total: Trabaja remotamente, organizando tu tiempo seg\u00fan te convenga.\n- Experiencia integral: Participar\u00e1s en un proyecto que cubre todo el ciclo de digitalizaci\u00f3n empresarial.\n- Impacto real: Ser\u00e1s una pieza clave en la transformaci\u00f3n digital de la empresa, aprendiendo sobre las m\u00e9tricas m\u00e1s relevantes para nuestra operaci\u00f3n y negocio.\n- Sueldo liquido de 700.000 CLP\nPerfil del candidato ideal:\n- Egresado/a o estudiante en proceso de titulaci\u00f3n en Ingenier\u00eda Civil en TI o carrera af\u00edn.\n- Conocimiento en bases de datos, desarrollo en la nube (GCP, Cloud Functions, Cloud SQL, AppSheets) y herramientas de BI (Looker Studio).\n- Proactividad y capacidad para trabajar de manera aut\u00f3noma.\nSi te interesa, env\u00eda tu CV a \nvicente.zehnder@trinityenergy.cl\n y \nliliana.vidal@trinityenergy.cl\n, indicando por qu\u00e9 eres el/la candidato/a ideal.\nM\u00e1s detalles aqu\u00ed: \nhttps://future-motorcycle-90a.notion.site/Trabajo-de-t-tulo-Creaci-n-ERP-interno-10ac92e7589980258297df97cd94c8c7?pvs=4",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "14:01:59"
+        },
+        "company_name": "Trinity Energy Group",
+        "remote_work_policy": "remote",
+        "employment_type": "trabajo de t\u00edtulo",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 700000,
+            "max_bound": 700000
+        },
+        "technologies": [
+            "Web scraping",
+            "Google AppSheets",
+            "CloudSQL",
+            "Cloud Functions",
+            "Looker Studio",
+            "Google Sheets"
+        ],
+        "id": 1539
+    },
+    {
+        "sender": "@Jaunrodcamp",
+        "contact_email": [],
+        "contact_phone": [],
+        "links": [
+            "https://initiativa.com/jobs/ai-research-implementation-intern/"
+        ],
+        "text": "Pasant\u00eda en Investigaci\u00f3n e Implementaci\u00f3n en IA \ud83d\ude80\nSobre el Cargo:\nEstamos buscando un pasante con una s\u00f3lida combinaci\u00f3n de habilidades en ciencia de datos y desarrollo de software para unirse a nuestro equipo. Esta pasant\u00eda ofrece una oportunidad \u00fanica para explorar el mundo del procesamiento de lenguaje natural (NLP) y modelos de lenguaje grandes (LLMs), mientras contribuyes al desarrollo de soluciones pr\u00e1cticas de IA.\n\u00bfQu\u00e9 Har\u00e1s?\nInvestigaci\u00f3n: Investigar\u00e1s los \u00faltimos avances en tecnolog\u00edas de NLP y LLMs.\nExploraci\u00f3n de Casos de Uso: Asistir\u00e1s en la identificaci\u00f3n de posibles aplicaciones de IA dentro de nuestra organizaci\u00f3n, enfoc\u00e1ndote en \u00e1reas como la generaci\u00f3n de cotizaciones, demostraciones comerciales, creaci\u00f3n de planes de \u00e9xito y gesti\u00f3n del conocimiento.\nDesarrollo de Prototipos: Participar\u00e1s en el dise\u00f1o y desarrollo de prototipos de IA.\nPreparaci\u00f3n de Datos: Contribuir\u00e1s a la recolecci\u00f3n, limpieza y preparaci\u00f3n de datos para el entrenamiento de modelos.\nIntegraci\u00f3n de Modelos: Ayudar\u00e1s a integrar modelos de IA con nuestros flujos de trabajo existentes.\nDocumentaci\u00f3n y Presentaci\u00f3n: Documentar\u00e1s tus hallazgos y presentar\u00e1s recomendaciones al equipo.\nRequisitos:\nFormaci\u00f3n Acad\u00e9mica: Fuerte formaci\u00f3n en ciencias de la computaci\u00f3n, ciencia de datos o campos relacionados (estudiante actual o reci\u00e9n graduado).\nInter\u00e9s en IA: Inter\u00e9s demostrado y conocimientos en inteligencia artificial, NLP y LLMs.\nDesarrollo Web y APIs: Experiencia o gran curiosidad por la construcci\u00f3n de aplicaciones web y APIs (Python preferido).\nProgramaci\u00f3n en Python: Dominio de Python, incluyendo bibliotecas de computaci\u00f3n cient\u00edfica como NumPy, Pandas, TensorFlow o PyTorch.\nSQL: Conocimientos de SQL para gesti\u00f3n y consulta de datos.\nHabilidades de Comunicaci\u00f3n: Excelentes habilidades de comunicaci\u00f3n, colaboraci\u00f3n y resoluci\u00f3n de problemas.\nPuntos Extras:\nExperiencia con frameworks de IA como Django o Flask.\nFamiliaridad con plataformas en la nube como AWS, Azure o GCP.\nUn portafolio que muestre proyectos personales relacionados con IA o desarrollo de software.\nRemuneraci\u00f3n: Entre $500,000 y $1,000,000 CLP, dependiendo de habilidades y conocimientos.\n\u00bfInteresado? \ud83c\udf1f Si est\u00e1s listo para aprender y contribuir al futuro de la IA en nuestra organizaci\u00f3n, \u00a1te invitamos a postularte!\nhttps://initiativa.com/jobs/ai-research-implementation-intern/",
+        "date": {
+            "day": "23",
+            "month": "09",
+            "year": "2024",
+            "time": "14:03:02"
+        },
+        "company_name": "Iniciativa",
+        "remote_work_policy": "in person",
+        "employment_type": "trabajo de t\u00edtulo",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 500000,
+            "max_bound": 1000000
+        },
+        "technologies": [
+            "NLP",
+            "LLMs",
+            "Python",
+            "NumPy",
+            "Pandas",
+            "TensorFlow",
+            "PyTorch",
+            "SQL",
+            "Django",
+            "Flask",
+            "AWS",
+            "Azure",
+            "GCP"
+        ],
+        "id": 1540
     }
 ]
