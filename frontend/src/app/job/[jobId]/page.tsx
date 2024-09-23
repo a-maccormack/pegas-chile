@@ -2,7 +2,7 @@
 
 import { JobPost } from "@/app/types";
 import Container from "@/components/container";
-import { TecnologiesContainer } from "@/components/tecnologiesContainer";
+import { TechnologiesContainer } from "@/components/technologiesContainer";
 import { CompanyNameSection } from "@/containers/JobPostPage/companyNameSection";
 import { ContactSection } from "@/containers/JobPostPage/contactSection";
 import { LinkSection } from "@/containers/JobPostPage/linkSection";
@@ -57,7 +57,7 @@ export default function JobPage({ params }: { params: { jobId: string } }) {
         </div>
         {jobPost.links && <LinkSection links={jobPost.links} />}
         <div className="my-2">
-          <TecnologiesContainer
+          <TechnologiesContainer
             companyName={jobPost.company_name}
             jobId={jobPost.id}
           />
