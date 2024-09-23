@@ -8,13 +8,18 @@ import { formatSalaryRange } from "@/helpers/salary";
 
 interface JobPostCardProps {
   jobPost: JobPost;
+  trunc?: boolean;
 }
 
-export const JobPostCard: React.FC<JobPostCardProps> = ({ jobPost }) => {
-  const truncatedCompanyName =
-    jobPost.company_name.length > 8
-      ? jobPost.company_name.slice(0, 5) + "..."
-      : jobPost.company_name;
+export const JobPostCard: React.FC<JobPostCardProps> = ({ jobPost, trunc }) => {
+  let truncatedCompanyName = jobPost.company_name;
+
+  if (trunc) {
+    truncatedCompanyName =
+      jobPost.company_name && jobPost.company_name.length > 8
+        ? jobPost.company_name.slice(0, 5) + "..."
+        : jobPost.company_name || "Unknown Company";
+  }
 
   const salaryRange = formatSalaryRange(jobPost);
   const remoteWorkIcon = employmentIcons[jobPost.remote_work_policy] || null;
