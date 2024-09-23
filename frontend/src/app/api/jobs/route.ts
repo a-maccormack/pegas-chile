@@ -13,13 +13,15 @@ export async function GET(request: Request) {
     const start = (page - 1) * pageSize;
     const end = start + pageSize;
 
-    const paginatedPosts = jobPosts.slice(start, end);
+    const reversedJobPosts = [...jobPosts].reverse();
+
+    const paginatedPosts = reversedJobPosts.slice(start, end);
 
     return NextResponse.json({
         page,
         pageSize,
-        totalPosts: jobPosts.length,
-        totalPages: Math.ceil(jobPosts.length / pageSize),
+        totalPosts: reversedJobPosts.length,
+        totalPages: Math.ceil(reversedJobPosts.length / pageSize),
         posts: paginatedPosts,
     });
 }
