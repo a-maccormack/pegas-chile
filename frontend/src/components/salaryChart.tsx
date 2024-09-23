@@ -12,16 +12,12 @@ import {
 } from "recharts";
 
 interface SalaryChartProps {
-  companyName: string;
   jobPosts: JobPost[];
 }
 
-export const SalaryChart: React.FC<SalaryChartProps> = ({
-  companyName,
-  jobPosts,
-}) => {
+export const SalaryChart: React.FC<SalaryChartProps> = ({ jobPosts }) => {
   const [chartData, setChartData] = useState<
-    { date: string; salary: number | null }[]
+    { date: string; salary: number | null; currency: string }[]
   >([]);
   const [salaryType, setSalaryType] = useState<"min" | "middle" | "upper">(
     "min",
@@ -29,23 +25,43 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
 
   useEffect(() => {
     const data = jobPosts.map((jobPost: JobPost) => {
-      const minSalary = parseInt(jobPost.salary_range.min_bound) / 1000000;
-      const upperSalary = parseInt(jobPost.salary_range.max_bound) / 1000000;
+      const minSalary = parseInt(jobPost.salary_range.min_bound);
+      const upperSalary = parseInt(jobPost.salary_range.max_bound) || minSalary;
       let salary: number | null = null;
 
+      const isUSD = jobPost.salary_range.currency === "USD";
+
       if (salaryType === "min") {
-        salary = isNaN(minSalary) || minSalary === 0 ? null : minSalary;
+        salary = isUSD
+          ? isNaN(minSalary) || minSalary === 0
+            ? null
+            : minSalary / 1000
+          : isNaN(minSalary) || minSalary === 0
+            ? null
+            : minSalary / 1000000;
       } else if (salaryType === "middle") {
         const middleSalary = (minSalary + upperSalary) / 2;
-        salary =
-          isNaN(middleSalary) || middleSalary === 0 ? null : middleSalary;
+        salary = isUSD
+          ? isNaN(middleSalary) || middleSalary === 0
+            ? null
+            : middleSalary / 1000
+          : isNaN(middleSalary) || middleSalary === 0
+            ? null
+            : middleSalary / 1000000;
       } else if (salaryType === "upper") {
-        salary = isNaN(upperSalary) || upperSalary === 0 ? null : upperSalary;
+        salary = isUSD
+          ? isNaN(upperSalary) || upperSalary === 0
+            ? null
+            : upperSalary / 1000
+          : isNaN(upperSalary) || upperSalary === 0
+            ? null
+            : upperSalary / 1000000;
       }
 
       return {
         date: `${jobPost.date.day}/${jobPost.date.month}/${jobPost.date.year}`,
         salary: salary,
+        currency: jobPost.salary_range.currency,
       };
     });
 
@@ -54,9 +70,7 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
 
   return (
     <div className="h-fit flex-grow rounded-md border border-gray-200 px-4 pb-14 shadow-sm">
-      <h3 className="my-10 text-center font-bold">
-        Sueldos Historicos {companyName}
-      </h3>
+      <h3 className="my-10 text-center font-bold">Sueldos Historicos</h3>
       {jobPosts.length > 0 ? (
         <div className="mx-auto h-40 w-full pb-10 text-center sm:h-96 2xl:max-w-2xl">
           <div className="mb-5">
@@ -81,12 +95,16 @@ export const SalaryChart: React.FC<SalaryChartProps> = ({
               <YAxis dataKey="salary">
                 <Label
                   className="hidden font-bold sm:block"
-                  value="Sueldo ($M CLP)"
+                  value={`Sueldo (${chartData[0]?.currency === "USD" ? "$K USD" : "$M CLP"})`}
                   angle={-90}
                   position="insideLeft"
                 />
               </YAxis>
-              <Tooltip />
+              <Tooltip
+                formatter={(value: any) =>
+                  `$ ${value} ${chartData[0]?.currency === "USD" ? "K" : "M"}`
+                }
+              />
               <Line type="monotone" dataKey="salary" stroke="#8884d8" />
             </LineChart>
           </ResponsiveContainer>
