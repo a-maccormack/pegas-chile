@@ -82,55 +82,57 @@ const SearchBar: React.FC<SearchBarProps> = ({
   const handleFormSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     const searchTerm = inputRef.current?.value;
-    if (searchTerm) {
+    if (searchTerm && searchTerm.length >= 3) {
       // TODO: replace with next navigation or sm
       window.location.href = `/company/${searchTerm}`;
     }
   };
 
   return (
-    <form onSubmit={handleFormSubmit}>
-      <div className="relative">
-        <div
-          className="ml-4 flex cursor-text items-center gap-2 rounded-lg bg-gray-900 px-2"
-          onClick={handleDivClick}
-        >
-          <FontAwesomeIcon className="h-4 text-white" icon={faSearch} />
-          <input
-            ref={inputRef}
-            className="h-8 w-full rounded bg-transparent pl-4 text-xs text-white outline-none"
-            placeholder="Busca empresa por nombre"
-            onChange={handleInputChange}
-            onFocus={handleInputFocus}
-            onBlur={handleInputBlur}
-            {...props}
-          />
-          <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
-            ⌘
-          </div>
-          <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
-            k
-          </div>
-        </div>
-        {isFocused && searchResults.length > 0 && (
+    <div className="min-w-[90px]">
+      <form onSubmit={handleFormSubmit}>
+        <div className="relative">
           <div
-            className="absolute z-10 ml-4 w-[calc(100%-1rem)] bg-black"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
+            className="ml-4 flex cursor-text items-center gap-2 rounded-lg bg-gray-900 px-2"
+            onClick={handleDivClick}
           >
-            {searchResults.map((result, index) => (
-              <Link
-                href={`/company/${result}`}
-                key={index}
-                className="block p-2 text-white visited:text-white visited:no-underline hover:bg-gray-800"
-              >
-                {result}
-              </Link>
-            ))}
+            <FontAwesomeIcon className="h-4 text-white" icon={faSearch} />
+            <input
+              ref={inputRef}
+              className="h-8 w-full rounded bg-transparent pl-4 text-xs text-white outline-none"
+              placeholder="Busca empresa por nombre"
+              onChange={handleInputChange}
+              onFocus={handleInputFocus}
+              onBlur={handleInputBlur}
+              {...props}
+            />
+            <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
+              ⌘
+            </div>
+            <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
+              k
+            </div>
           </div>
-        )}
-      </div>
-    </form>
+          {isFocused && searchResults.length > 0 && (
+            <div
+              className="absolute z-10 ml-4 w-[calc(100%-1rem)] bg-black"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              {searchResults.map((result, index) => (
+                <Link
+                  href={`/company/${result}`}
+                  key={index}
+                  className="block p-2 text-white visited:text-white visited:no-underline hover:bg-gray-800"
+                >
+                  {result}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
+      </form>
+    </div>
   );
 };
 
