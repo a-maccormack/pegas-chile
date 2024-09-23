@@ -79,7 +79,7 @@ export const CompanyBoardSection = () => {
             </Link>
           ))
         ) : (
-          <p>Loading jobs...</p>
+          <p>Loading companies...</p>
         )}
       </div>
     </>
