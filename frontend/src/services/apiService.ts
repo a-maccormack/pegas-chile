@@ -68,6 +68,27 @@ class ApiService {
             throw error;
         }
     }
+
+    public async getJobPostById(id: string): Promise<AxiosResponse<JobPost>> {
+        try {
+            const response = this.axiosInstance.get(`/jobs/getJobPostById?id=${id}`);
+            return response;
+        } catch (error) {
+            console.error('GetJobPostById request failed', error);
+            throw error;
+        }
+    }
+
+    public async getTechnologiesByPostId(id: string): Promise<AxiosResponse<string[]>> {
+        try {
+            const response = this.axiosInstance.get(`/search/technologiesByPostId?id=${id}`);
+            return response;
+        } catch (error) {
+            console.error('GetTecnologiesByPostId request failed', error);
+            throw error;
+        }
+    }
+
 }
 
 export default ApiService;
