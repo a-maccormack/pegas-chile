@@ -15,7 +15,7 @@ export const CompanyPostsSection: React.FC<SalaryChartSectionProps> = ({
   return (
     <div className="my-20 flex-row justify-center gap-4 2xl:flex">
       <div className="mb-4 flex flex-col gap-4 2xl:mx-auto 2xl:w-3/5">
-        <SalaryChart companyName={companyName} jobPosts={companyJobPosts} />
+        <SalaryChart jobPosts={companyJobPosts} />
         <TecnologiesContainer companyName={companyName} />
       </div>
       <div className="flex max-h-[550px] flex-col gap-2 overflow-y-auto">
