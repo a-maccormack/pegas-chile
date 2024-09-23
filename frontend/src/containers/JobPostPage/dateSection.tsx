@@ -10,7 +10,11 @@ interface DateSectionProps {
 export const DateSection: React.FC<DateSectionProps> = ({ jobPost }) => {
   const formatDate = () => {
     return (
-      jobPost.date.day + "/" + jobPost.date.month + "/" + jobPost.date.year
+      jobPost?.date?.day +
+      "/" +
+      jobPost?.date?.month +
+      "/" +
+      jobPost?.date?.year
     );
   };
   return (

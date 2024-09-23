@@ -2,13 +2,19 @@ import { JobPost } from "@/app/types";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
-import Link from "next/link";
 
 interface LinkSectionProps {
   links: Partial<JobPost["links"]> | undefined;
 }
 
 export const LinkSection: React.FC<LinkSectionProps> = ({ links }) => {
+  const ensureScheme = (url: string) => {
+    if (!/^https?:\/\//i.test(url)) {
+      return `https://${url}`;
+    }
+    return url;
+  };
+
   return (
     <div className="mt-4">
       {links && links.length > 0 ? (
@@ -19,7 +25,11 @@ export const LinkSection: React.FC<LinkSectionProps> = ({ links }) => {
           >
             <FontAwesomeIcon icon={faLink} />
             {url ? (
-              <a href={url} target="_blank" rel="noopener noreferrer">
+              <a
+                href={ensureScheme(url)}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {url.length > 30 ? `${url.slice(0, 30)}...` : url}
               </a>
             ) : (
