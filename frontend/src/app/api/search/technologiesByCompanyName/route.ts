@@ -23,11 +23,18 @@ export async function GET(request: NextRequest) {
             return NextResponse.json({ message: 'No job posts found for the given company name.' }, { status: 404 });
         }
 
-        const technologies = Array.from(
-            new Set(
-                filteredJobPosts.flatMap((post) => post.technologies || [])
-            )
-        );
+        const technologyMap = new Map<string, string>();
+
+        filteredJobPosts.forEach((post) => {
+            (post.technologies || []).forEach((tech) => {
+                const techLower = tech.toLowerCase();
+                if (!technologyMap.has(techLower)) {
+                    technologyMap.set(techLower, tech);
+                }
+            });
+        });
+
+        const technologies = Array.from(technologyMap.values());
 
         return NextResponse.json({ technologies }, { status: 200 });
     } catch (error) {
