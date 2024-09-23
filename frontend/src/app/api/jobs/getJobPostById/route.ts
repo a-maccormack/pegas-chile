@@ -7,7 +7,7 @@ export const runtime = 'edge';
 const jobPosts = data as JobPost[];
 
 const getJobPostById = (id: number): JobPost | {} => {
-    if (id < 0 || id >= jobPosts.length) {
+    if (id < 1 || id >= jobPosts.length + 1) {
         return {};
     }
     return jobPosts[id - 1];
