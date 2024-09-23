@@ -21,7 +21,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ jobPost }) => {
         <div className="flex items-center">
           <FontAwesomeIcon icon={faTelegram} className="mr-2" />
           <a
-            href={`https://t.me/${sender}`}
+            href={`https://t.me/${sender.startsWith("@") ? sender.slice(1) : sender}`}
             className="text-blue-600"
             target="_blank"
             rel="noopener noreferrer"
