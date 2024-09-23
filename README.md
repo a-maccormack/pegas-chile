@@ -49,3 +49,33 @@ The frontend is built using Next.js, allowing for easy static data API generatio
 ## API
 
 The API is built through the Next.js static api. You can find it under [/frontend/src/app/api](/frontend/src/app/api)
+
+# Contributing
+
+If you want to submit a job post, create an `issue` including the following data for your job post submission:
+
+```json
+{
+  "sender": "<your-telegram-username-starting-with-an-@>",
+  "contact_email": ["<your-email-(optional)>"],
+  "contact_phone": ["<your-phone-(optional)>"],
+  "links": ["<any-link-(optional)>"],
+  "text": "<your-job-offer-text>",
+  "date": {
+    "day": "<current-day-number>",
+    "month": "<current-month-number>",
+    "year": "<current-year-number>",
+    "time": "<current-time>"
+  },
+  "company_name": "<your-company-name>",
+  "remote_work_policy": "<remote, hybrid, in person>",
+  "employment_type": "<practica, fulltime, trabajo de título, part time>",
+  "salary_range": {
+    "currency": "<CLP, USD>",
+    "min_bound": "<min-bound-for-position>",
+    "max_bound": "<man-bound-for-position>"
+  },
+  "technologies": ["<any-tecnologies-the-applicant-should-know>"],
+  "id": 1529
+}
+```
