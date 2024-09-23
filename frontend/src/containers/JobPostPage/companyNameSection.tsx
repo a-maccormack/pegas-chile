@@ -10,7 +10,7 @@ export const CompanyNameSection: React.FC<CompanyNameSectionProps> = ({
 }) => {
   return (
     <div className="text-5xl font-bold">
-      <Link href={`/company/${companyName}`}>
+      <Link className="text-blue-500" href={`/company/${companyName}`}>
         <h1>{companyName}</h1>
       </Link>
     </div>
