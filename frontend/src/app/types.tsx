@@ -1,4 +1,15 @@
+import {
+  faLaptop,
+  faClock,
+  faBook,
+  faBatteryHalf,
+  faPerson,
+  faDoorOpen,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
+
 export type JobPost = {
+  id: number;
   sender: string | null;
   contact_email: string[];
   contact_phone: string[];
@@ -19,4 +30,17 @@ export type JobPost = {
     currency: string;
   };
   technologies: string[];
+};
+
+export const employmentIcons: Record<string, any> = {
+  remote: faLaptop,
+  hybrid: faDoorOpen,
+  "in person": faPerson,
+};
+
+export const remoteWorkIcons: Record<string, any> = {
+  practica: faBook,
+  fulltime: faClock,
+  "trabajo de titulo": faGraduationCap,
+  part_time: faBatteryHalf,
 };
