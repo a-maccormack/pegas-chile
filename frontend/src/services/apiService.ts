@@ -9,6 +9,14 @@ interface PaginatedJobPostsResponse {
     totalPosts: number;
 }
 
+interface PaginatedCompaniesResponse {
+    page: number;
+    pageSize: number;
+    companies: string[];
+    totalPages: number;
+    totalCompanies: number;
+}
+
 interface SimilarCompanyNamesResponse {
     companies: string[]
 }
@@ -35,6 +43,19 @@ class ApiService {
             return response;
         } catch (error) {
             console.error('GetJobPosts request failed', error);
+            throw error;
+        }
+    }
+
+    public async getCompanies(
+        pageNumber?: number,
+    ): Promise<AxiosResponse<PaginatedCompaniesResponse>> {
+        try {
+            const url = pageNumber ? `/companies/?page=${pageNumber}` : '/companies/';
+            const response = await this.axiosInstance.get(url);
+            return response;
+        } catch (error) {
+            console.error('GetCompanies request failed', error);
             throw error;
         }
     }
