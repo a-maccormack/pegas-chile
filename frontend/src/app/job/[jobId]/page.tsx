@@ -10,6 +10,7 @@ import { JobDetailSection } from "@/containers/JobPostPage/jobDetailSection";
 import ApiService from "@/services/apiService";
 import { useEffect, useState } from "react";
 import ReactMarkDown from "react-markdown";
+import { DateSection } from "@/containers/JobPostPage/dateSection";
 
 export const runtime = "edge";
 
@@ -47,6 +48,7 @@ export default function JobPage({ params }: { params: { jobId: string } }) {
   return (
     <Container>
       <div className="mb-10">
+        <DateSection jobPost={jobPost} />
         <CompanyNameSection companyName={jobPost.company_name} />
         <JobDetailSection jobPost={jobPost} />
         <ContactSection jobPost={jobPost} />
