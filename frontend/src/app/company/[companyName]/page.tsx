@@ -20,6 +20,12 @@ export default function CompanyPage({
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    if (params.companyName) {
+      if (params.companyName.length < 3) {
+        window.location.href = `/`;
+      }
+    }
+
     setCompanyName(decodeURIComponent(params.companyName));
     setLoading(true);
     apiService.getJobPostsByCompanyName(params.companyName).then((response) => {
