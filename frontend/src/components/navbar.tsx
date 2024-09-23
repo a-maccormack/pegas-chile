@@ -6,6 +6,8 @@ import SearchBar from "@/components/searchBar";
 import Logo from "@/assets/navbar/logo.png";
 import ApiService from "@/services/apiService";
 import Link from "next/link";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Navbar() {
   const apiService = new ApiService();
@@ -57,6 +59,15 @@ function Navbar() {
           onChange={handleSearchChange}
           searchResults={searchResults}
         />
+        <div className="flex flex-grow items-center justify-end pl-4">
+          <a
+            href="https://github.com/a-maccormack/pegas-chile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} className="h-4 w-4 text-white" />
+          </a>
+        </div>
       </div>
     </nav>
   );
