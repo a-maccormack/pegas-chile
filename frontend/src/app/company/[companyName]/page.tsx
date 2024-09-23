@@ -17,22 +17,29 @@ export default function CompanyPage({
   const apiService = new ApiService();
   const [companyName, setCompanyName] = useState("");
   const [companyJobPosts, setCompanyJobPosts] = useState<JobPost[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     setCompanyName(decodeURIComponent(params.companyName));
+    setLoading(true);
     apiService.getJobPostsByCompanyName(params.companyName).then((response) => {
       const jobPosts = response.data;
       setCompanyJobPosts(jobPosts);
+      setLoading(false);
     });
   }, [params.companyName]);
 
   return (
     <Container className="!w-[90%] sm:!w-[60%]">
       <CompanyHeaderSection companyName={companyName} />
-      <CompanyPostsSection
-        companyName={companyName}
-        companyJobPosts={companyJobPosts}
-      />
+      {loading ? (
+        <div className="text-center">Loading...</div>
+      ) : (
+        <CompanyPostsSection
+          companyName={companyName}
+          companyJobPosts={companyJobPosts}
+        />
+      )}
     </Container>
   );
 }
