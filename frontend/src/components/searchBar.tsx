@@ -93,23 +93,23 @@ const SearchBar: React.FC<SearchBarProps> = ({
       <form onSubmit={handleFormSubmit}>
         <div className="relative">
           <div
-            className="ml-4 flex cursor-text items-center gap-2 rounded-lg bg-gray-900 px-2"
+            className="ml-4 flex cursor-text items-center gap-2 rounded-lg bg-gray-600 px-2"
             onClick={handleDivClick}
           >
             <FontAwesomeIcon className="h-4 text-white" icon={faSearch} />
             <input
               ref={inputRef}
-              className="h-8 w-full rounded bg-transparent pl-4 text-xs text-white outline-none"
+              className="h-8 w-full rounded bg-transparent pl-2 text-xs text-white outline-none placeholder:text-white"
               placeholder="Busca empresa por nombre"
               onChange={handleInputChange}
               onFocus={handleInputFocus}
               onBlur={handleInputBlur}
               {...props}
             />
-            <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
+            <div className="hidden w-6 rounded bg-black px-1 text-center text-white sm:block">
               ⌘
             </div>
-            <div className="hidden w-4 rounded bg-black text-center text-white sm:block">
+            <div className="hidden w-4 rounded bg-black px-1 text-center text-white sm:block">
               k
             </div>
           </div>
