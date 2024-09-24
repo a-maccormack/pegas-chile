@@ -6,7 +6,7 @@ import { JobPostCard } from "@/components/jobPostCard";
 import ApiService from "@/services/apiService";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 export const JobBoardSection = () => {
@@ -58,7 +58,7 @@ export const JobBoardSection = () => {
   };
 
   return (
-    <>
+    <Suspense>
       <div className="my-5 flex items-center justify-between">
         <button
           className={`rounded bg-green-600 px-4 py-2 text-white ${
@@ -96,6 +96,6 @@ export const JobBoardSection = () => {
           <p>Loading jobs...</p>
         )}
       </div>
-    </>
+    </Suspense>
   );
 };
