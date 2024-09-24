@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
-import React, { Suspense, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const CompanyBoardSection = () => {
   const apiService = new ApiService();
@@ -58,7 +58,7 @@ export const CompanyBoardSection = () => {
   };
 
   return (
-    <Suspense>
+    <>
       <div className="my-5 flex items-center justify-between">
         <button
           className={`rounded bg-green-600 px-4 py-2 text-white ${
@@ -102,6 +102,6 @@ export const CompanyBoardSection = () => {
           <p>Loading companies...</p>
         )}
       </div>
-    </Suspense>
+    </>
   );
 };
