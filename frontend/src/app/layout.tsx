@@ -43,6 +43,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="HxgbvuU59VL-ZhlG7j4BzaZ1y9yjo72kRWlgxuL87AA"
+        />
+      </head>
       <CSPostHogProvider>
         <body className={inter.className}>
           <Navbar />
