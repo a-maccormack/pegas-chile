@@ -1,17 +1,33 @@
 "use client";
 
+// TODO: make into a common component
 import { JobPost } from "@/app/types";
 import { JobPostCard } from "@/components/jobPostCard";
 import ApiService from "@/services/apiService";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 export const JobBoardSection = () => {
   const apiService = new ApiService();
-  const [page, setPage] = useState(1);
+  const router = useRouter();
+
+  const searchParams = useSearchParams();
+  const pageParam = searchParams.get("page");
+
+  const [page, setPage] = useState<number>(1);
   const [jobs, setJobs] = useState<JobPost[] | null>(null);
   const [totalPages, setTotalPages] = useState(0);
+
+  useEffect(() => {
+    if (pageParam) {
+      const initialPage = parseInt(pageParam, 10);
+      if (!isNaN(initialPage) && initialPage > 0) {
+        setPage(initialPage);
+      }
+    }
+  }, [pageParam]);
 
   useEffect(() => {
     apiService
@@ -27,15 +43,20 @@ export const JobBoardSection = () => {
 
   const handleNextPage = () => {
     if (page < totalPages) {
-      setPage((prevPage) => prevPage + 1);
+      const newPage = page + 1;
+      setPage(newPage);
+      router.push(`?page=${newPage}`);
     }
   };
 
   const handlePreviousPage = () => {
     if (page > 1) {
-      setPage((prevPage) => prevPage - 1);
+      const newPage = page - 1;
+      setPage(newPage);
+      router.push(`?page=${newPage}`);
     }
   };
+
   return (
     <>
       <div className="my-5 flex items-center justify-between">
