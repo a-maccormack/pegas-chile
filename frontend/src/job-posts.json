@@ -48836,5 +48836,60 @@
             "GCP"
         ],
         "id": 1540
+    },
+    {
+        "sender": "@cjjouanne",
+        "contact_email": [
+            "carlos@makana.cl"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "Oportunidad de Pr\u00e1ctica II / Trabajo de T\u00edtulo / Pasant\u00eda en Makana\n\u00a1\u00danete a Makana, una startup de servicios de bienestar y prevenci\u00f3n B2B! Nos enfocamos en la reducci\u00f3n de molestias musculoesquel\u00e9ticas mediante tecnolog\u00eda avanzada. Estamos buscando un desarrollador para unirse a nuestro equipo en crecimiento.\nSobre Makana:\nSomos una startup \u00e1gil y din\u00e1mica, donde el desarrollo de nuestro producto es clave para generar un impacto positivo en nuestros clientes y usuarios. Adem\u00e1s de nuestro enfoque en bienestar, colaboramos en diversas investigaciones, incluida una con una universidad, por lo que parte del trabajo involucrar\u00e1 el desarrollo de herramientas internas para el an\u00e1lisis de datos.\nPerfil que buscamos:\nEstamos interesados en estudiantes o reci\u00e9n egresados de Ingenier\u00eda en Computaci\u00f3n, Software, TI o carreras afines, con habilidades para integrar sistemas y herramientas de software. La posici\u00f3n es full-time, pero si a\u00fan est\u00e1s cursando el semestre, puedes comenzar part-time. Idealmente, deber\u00edas tener experiencia o conocimiento en las siguientes tecnolog\u00edas:\n \u2022 Ruby on Rails\n \u2022 React TypeScript\n \u2022 AWS (Elastic Beanstalk, RDS, S3, entre otros)\nEl conocimiento en Flutter es valorado, aunque no es obligatorio, \u00a1pero definitivamente ser\u00e1 un plus!\nLo que ofrecemos:\n \u2022 Impacto real: En Makana, tu trabajo tendr\u00e1 un impacto directo en la calidad de vida de los trabajadores, siendo clave para medir y aumentar ese impacto. Te enfrentar\u00e1s a desaf\u00edos reales, no a tareas rutinarias.\n \u2022 Flexibilidad total: Trabaja desde donde prefieras y organiza tu tiempo, excepto para las reuniones de equipo.\n \u2022 Acceso a oficinas: Si prefieres trabajar en un espacio f\u00edsico, contamos con oficinas en Cantagallo.\n \u2022 Compensaci\u00f3n competitiva: Entre $700.000 y $1.200.000, dependiendo de tu disponibilidad y experiencia.\n \u2022 Excelente equipo de trabajo: Ser\u00e1s parte de un equipo colaborativo y comprometido.\nSi est\u00e1s interesado, env\u00eda tu CV a \ncarlos@makana.cl",
+        "date": {
+            "day": "25",
+            "month": "09",
+            "year": "2024",
+            "time": "19:12:40"
+        },
+        "company_name": "Makana",
+        "remote_work_policy": "hybrid",
+        "employment_type": "practica",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 700000,
+            "max_bound": 1200000
+        },
+        "technologies": [
+            "Ruby on Rails",
+            "React TypeScript",
+            "AWS (Elastic Beanstalk, RDS, S3)",
+            "Flutter"
+        ],
+        "id": 1541
+    },
+    {
+        "sender": "@diegoiruretagoyena",
+        "contact_email": [],
+        "contact_phone": [],
+        "links": [
+            "https://www.linkedin.com/jobs/view/4029685031/"
+        ],
+        "text": "Hola, Microsoft busca PM interns\nDetalles aqu\u00ed \nhttps://www.linkedin.com/jobs/view/4029685031/\nSueldo \nUSD $5,460 - $10,680 por mes \nPueden postular directo y, adem\u00e1s, enviarme CV para referral (no hay bonus de mi lado, pero me interesa que postulen chilen@s).",
+        "date": {
+            "day": "25",
+            "month": "09",
+            "year": "2024",
+            "time": "19:14:42"
+        },
+        "company_name": "Microsoft",
+        "remote_work_policy": "remote",
+        "employment_type": "practica",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 5460,
+            "max_bound": 10680
+        },
+        "technologies": [],
+        "id": 1542
     }
 ]
