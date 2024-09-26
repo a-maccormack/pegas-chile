@@ -48885,7 +48885,7 @@
         "remote_work_policy": "remote",
         "employment_type": "practica",
         "salary_range": {
-            "currency": "CLP",
+            "currency": "USD",
             "min_bound": 5460,
             "max_bound": 10680
         },
