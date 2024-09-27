@@ -14,20 +14,11 @@ export const CompanyBoardSection = () => {
   const router = useRouter();
 
   const searchParams = useSearchParams();
-  const pageParam = searchParams.get("page");
+  const pageParam = searchParams.get("page") ?? "1";
 
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState<number>(parseInt(pageParam));
   const [companies, setCompanies] = useState<string[] | null>(null);
   const [totalPages, setTotalPages] = useState(0);
-
-  useEffect(() => {
-    if (pageParam) {
-      const initialPage = parseInt(pageParam, 10);
-      if (!isNaN(initialPage) && initialPage > 0) {
-        setPage(initialPage);
-      }
-    }
-  }, [pageParam]);
 
   useEffect(() => {
     apiService

@@ -14,20 +14,11 @@ export const JobBoardSection = () => {
   const router = useRouter();
 
   const searchParams = useSearchParams();
-  const pageParam = searchParams.get("page");
+  const pageParam = searchParams.get("page") ?? "1";
 
-  const [page, setPage] = useState<number>(1);
+  const [page, setPage] = useState<number>(parseInt(pageParam));
   const [jobs, setJobs] = useState<JobPost[] | null>(null);
   const [totalPages, setTotalPages] = useState(0);
-
-  useEffect(() => {
-    if (pageParam) {
-      const initialPage = parseInt(pageParam, 10);
-      if (!isNaN(initialPage) && initialPage > 0) {
-        setPage(initialPage);
-      }
-    }
-  }, [pageParam]);
 
   useEffect(() => {
     apiService
