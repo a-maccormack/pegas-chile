@@ -39,7 +39,7 @@ export const CompanyBoardSection = () => {
       .catch((error) => {
         console.error("Error fetching companies:", error);
       });
-  }, [page]);
+  }, [page, pageParam]);
 
   const handleNextPage = () => {
     if (page < totalPages) {

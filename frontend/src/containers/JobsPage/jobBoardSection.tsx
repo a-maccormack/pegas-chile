@@ -39,7 +39,7 @@ export const JobBoardSection = () => {
       .catch((error) => {
         console.error("Error fetching job posts:", error);
       });
-  }, [page]);
+  }, [page, pageParam]);
 
   const handleNextPage = () => {
     if (page < totalPages) {
