@@ -40,6 +40,10 @@ export default function CompanyPage({
       <CompanyHeaderSection companyName={companyName} />
       {loading ? (
         <div className="text-center">Loading...</div>
+      ) : companyJobPosts.length === 0 ? (
+        <div className="mt-20 text-center">
+          La empresa <b>{companyName}</b> no fue encontrada.
+        </div>
       ) : (
         <CompanyPostsSection
           companyName={companyName}
