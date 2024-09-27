@@ -19854,8 +19854,8 @@
         "employment_type": "practica",
         "salary_range": {
             "currency": "USD",
-            "min_bound": 1500000,
-            "max_bound": 2000000
+            "min_bound": 1500,
+            "max_bound": 2000
         },
         "technologies": [
             "Golang",
@@ -28749,8 +28749,8 @@
         "employment_type": "practica",
         "salary_range": {
             "currency": "USD",
-            "min_bound": 1500000,
-            "max_bound": 2000000
+            "min_bound": 1500,
+            "max_bound": 2000
         },
         "technologies": [],
         "id": 923
