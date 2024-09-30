@@ -17,6 +17,11 @@ const SearchBar: React.FC<SearchBarProps> = ({
   const inputRef = useRef<HTMLInputElement>(null);
   const [isFocused, setIsFocused] = useState(false);
   const [blurTimeout, setBlurTimeout] = useState<NodeJS.Timeout | null>(null);
+  const [isMac, setIsMac] = useState(false);
+
+  useEffect(() => {
+    setIsMac(navigator.platform.toUpperCase().indexOf("MAC") >= 0);
+  }, []);
 
   const focusInput = () => {
     if (inputRef.current) {
@@ -48,7 +53,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.ctrlKey && event.key === "k") {
+      if ((isMac ? event.metaKey : event.ctrlKey) && event.key === "k") {
         event.preventDefault();
         focusInput();
       }
@@ -69,7 +74,7 @@ const SearchBar: React.FC<SearchBarProps> = ({
         clearTimeout(blurTimeout);
       }
     };
-  }, [blurTimeout]);
+  }, [blurTimeout, isMac]);
 
   const handleDivClick = () => {
     focusInput();
