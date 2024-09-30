@@ -48891,5 +48891,94 @@
         },
         "technologies": [],
         "id": 1542
+    },
+    {
+        "sender": "@crisriffo",
+        "contact_email": [
+            "icyt@uc.cl"
+        ],
+        "contact_phone": [
+            "2024-2025"
+        ],
+        "links": [],
+        "text": "El \u00e1rea de Informaci\u00f3n Estrat\u00e9gica Cient\u00edfica y Tecnol\u00f3gica (ICYT) perteneciente al sistema de Bibliotecas de la Pontificia Universidad Cat\u00f3lica de Chile est\u00e1 en busca de 2 ayudantes alumnos para el ciclo \n2024-2025\n.\n\u00bfQu\u00e9 har\u00e1s? \n-Desarrollar e implementar plataformas, aplicaciones o funcionalidades.\n-Trabajar en estrecha colaboraci\u00f3n en tareas relacionadas con la producci\u00f3n de investigaci\u00f3n.\n-Revisi\u00f3n de planillas de datos.\n\u00bfQu\u00e9 buscamos? \n-Alumno UC que sean estudiantes vigentes de pregrado/postgrado en el a\u00f1o 2024.\n-Contar con conocimientos de programaci\u00f3n: Se solicitar\u00e1 la creaci\u00f3n de un c\u00f3digo en Python, seg\u00fan instrucciones.\n-Tener iniciada actividades en SII para poder emitir boletas mensuales.\n\u00bfQu\u00e9 ofrecemos? \n-Jornada de 33 horas mensuales.\n-Modalidad de trabajo hibrida totalmente flexible.\n-Flexibilidad de horario y organizaci\u00f3n de tus tiempos.\n-Nuestra oficina est\u00e1 ubicada en el Campus San Joaqu\u00edn.\n-Contrato semestral renovable.\n-Pago mensual liquido de $120.039\n-Escritorio y equipamiento en nuestra oficina en caso de querer realizar actividades de forma presencial en nuestra oficina.\n\u00a1Si te interesa, cont\u00e1ctanos! Env\u00eda tu cv a \nicyt@uc.cl\n l con el asunto \u201cPostulaci\u00f3n ayudante alumno ICYT\u201d",
+        "date": {
+            "day": "28",
+            "month": "09",
+            "year": "2024",
+            "time": "12:56:55"
+        },
+        "company_name": "Pontificia Universidad Cat\u00f3lica de Chile",
+        "remote_work_policy": "hybrid",
+        "employment_type": "part time",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 120039,
+            "max_bound": 120039
+        },
+        "technologies": [
+            "Python"
+        ],
+        "id": 1543
+    },
+    {
+        "sender": "@cstevensont",
+        "contact_email": [
+            "carlos@relif.cl"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "Full Stack developer para Relif\nSobre Relif\nRelif es una startup tecnol\u00f3gica que desarrolla productos basados en AI y Open Finance. A trav\u00e9s de nuestros software, ayudamos a (i) bancos para que puedan ofrecer mejores soluciones de endeudamiento para las personas, mejorando as\u00ed su salud financiera; y a (ii) automotoras para que puedan filtrar y canalizar sus prospectos, optimizando sus procesos de venta. Estamos creciendo aceleradamente, consolidando nuestras 2 verticales en Chile y empezando a prospectar clientes fuera del pa\u00eds.\n\u00bfQu\u00e9 estamos buscando?\n- Desarrollador con muchas ganas de empoderarse, aportar y crecer con una startup con 2 a\u00f1os de vida.\n- Que sepas escribir buen c\u00f3digo \ud83e\uddd9\u200d\u2642\ufe0f (Principalmente en React.js. Node.js., ORM o SQL. Un plus si te manejas en Python, Koa, Google Cloud u otras tecnolog\u00edas que quieras recomendar)\n- Ingl\u00e9s medio: poder leer documentaci\u00f3n, escribir c\u00f3digo, etc\n- Desde T.T. a 3 a\u00f1os de experiencia\n- Que no te complique tener relaci\u00f3n directa con clientes\n- Todos aportamos en todo, hay que estar dispuesto a ser maestro chasquilla.\n\u00bfQu\u00e9 hay para ti en Relif?\n- Aprender\u00e1s de un equipo de primer nivel, con experiencia trabajando en empresas como Facebook, Buk, mundo financiero en Chile y fuera.\n- Construir productos usando algunas de las tecnolog\u00edas que est\u00e1n redefiniendo distintas industrias, como AI y Open Finance.\n- Buenas oportunidades de crecimiento. Ser\u00e1s de los primeros empleados y queremos que crezcas con nosotros.\n- Compartimos oficina con Platanus Ventures, por lo que podr\u00e1s compartir con muchos emprendedores y desarrolladores.\n- Beneficios \ud83d\udcbb Macbook como computador de trabajo.\n- Te compramos los cursos necesarios para realizar tu trabajo (Udemy, Coursera, libros, etc)\n- Horario flexible: El trabajo es full time pero trabajamos por objetivos\n- Trabajo Hibrido: La oficina est\u00e1 abierta todos los d\u00edas, pero en general hay 3 d\u00edas a la semana que nos juntamos todos.\n- Sueldo \ud83e\udd11: $1.200.000-$2.500.000 seg\u00fan experiencia \n- Vacaciones \ud83c\udfd6\ufe0f: 4 semanas\n- Stock options\n\u00bfC\u00f3mo postular? \n- Manda tu CV a: \ncarlos@relif.cl\n- Entrevista online con Jorge de La Carrera, nuestro CTO\n- Responder una prueba t\u00e9cnica para evaluar capacidades\n- Entrevista presencial con nuestro equipo para que nos conozcamos y conozcas la oficina",
+        "date": {
+            "day": "28",
+            "month": "09",
+            "year": "2024",
+            "time": "13:00:09"
+        },
+        "company_name": "Relif",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1200000,
+            "max_bound": 2500000
+        },
+        "technologies": [
+            "React.js",
+            "Node.js",
+            "ORM",
+            "SQL",
+            "Python",
+            "Koa",
+            "Google Cloud"
+        ],
+        "id": 1544
+    },
+    {
+        "sender": "@cjprieto",
+        "contact_email": [
+            "isidora.pozarski@galilea.cl"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "Si est\u00e1s en b\u00fasqueda de nuevos desaf\u00edos, \u00a1te invitamos a postular para trabajar con nosotros!\nEn Inmobiliaria Galilea Centro queremos ampliar nuestro equipo de desarrollo, por lo que estamos en b\u00fasqueda de nuestro pr\u00f3ximo Analista de Control de Gesti\u00f3n y Desarrollo, quien tendr\u00e1 el objetivo de participar dentro de Galilea en el desarrollo y soporte de diversas plataformas, reporter\u00eda e integraciones.\nTus principales desaf\u00edos ser\u00e1n:\n\u2022 Participar en el desarrollo, mejora continua y nuevas funcionalidades de distintas aplicaciones en Retool\nApoyar decisiones e implementar cambios de arquitectura\n\u2022 Trabajar en conjunto con el equipo el desarrollo para nuevos proyectos\n\u2022 Mejora de integraciones existentes\n\u00bfQu\u00e9 esperamos de ti?\n\u2022 Conocimiento deseable de Retool (no es requisito)\n\u2022 Conocimiento de programaci\u00f3n y manejo de datos\n\u2022 Motivaci\u00f3n para trabajar en la mejora continua de los procesos de la empresa\n\u2022 Inter\u00e9s en ser parte de un equipo multidisciplinario para mantener y potenciar soluciones de tecnolog\u00eda \u00fanicas en la industria\n\u2022 Inter\u00e9s por aprender de tecnolog\u00eda y de la industria de la construcci\u00f3n\n\u2022 No es necesaria experiencia, puedes venir a hacer tu pr\u00e1ctica profesional, trabajo de t\u00edtulo o ser reci\u00e9n titulado\n\u00bfQu\u00e9 ofrecemos?\n\u2022 Sueldo l\u00edquido entre $750.000 - $1.500.000 dependiendo de la experiencia\n\u2022 Beneficio telefon\u00eda: Tel\u00e9fono empresa o se te paga plan de telefon\u00eda de la empresa, manteniendo tu n\u00famero de tel\u00e9fono, con contrato indefinido\n\u2022 Seguro complementario de salud financiado 3/4 por la compa\u00f1\u00eda a partir del contrato indefinido\n\u2022 F\u00e1cil accesibilidad: nuestra oficina est\u00e1 al lado del metro Manquehue\n\u2022 Posibilidad de trabajo h\u00edbrido\n\u2022 Oportunidades de crecimiento y desarrollo profesional\n\u2022 Excelente ambiente de trabajo\n\u2022 En nuestra cocina contamos con equipamiento completo. Caf\u00e9, t\u00e9, leche, fruta\u2026 y lo mejor de todo, es que una vez al mes nos reunimos a celebrar los cumplea\u00f1os\n\u2022 Algunas de nuestras principales alianzas con beneficios a los colaboradores son: Vida C\u00e1mara, Caja compensaci\u00f3n Los Andes, FALP (Fundaci\u00f3n Arturo Lopez Perez), Banco de Chile y ACHS.\n \nPara postular por favor ingresa a la publicaci\u00f3n de empleo de linkedin.\n \nY si tienes cualquier consulta escr\u00edbenos a \nisidora.pozarski@galilea.cl\n\u2022",
+        "date": {
+            "day": "28",
+            "month": "09",
+            "year": "2024",
+            "time": "13:01:01"
+        },
+        "company_name": "Inmobiliaria Galilea Centro",
+        "remote_work_policy": "hybrid",
+        "employment_type": "practica",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 750000,
+            "max_bound": 1500000
+        },
+        "technologies": [
+            "Retool"
+        ],
+        "id": 1545
     }
 ]
