@@ -5,15 +5,12 @@ import { JobPostCard } from "@/components/jobPostCard";
 import ApiService from "@/services/apiService";
 import React, { useEffect, useState } from "react";
 import { useInfiniteScroll } from "@/hooks/useInfiniteScroll"; // Import custom hook
-import { useSearchParams } from "next/navigation";
 
 export const JobBoardSection = () => {
   const apiService = new ApiService();
-  const searchParams = useSearchParams();
-  const pageParam = searchParams.get("page") ?? "1";
 
   const [jobs, setJobs] = useState<JobPost[]>([]);
-  const [page, setPage] = useState<number>(parseInt(pageParam));
+  const [page, setPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState(0);
   const [loading, setLoading] = useState(false);
 
