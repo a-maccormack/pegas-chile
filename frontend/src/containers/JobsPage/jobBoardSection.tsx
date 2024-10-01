@@ -37,29 +37,35 @@ export const JobBoardSection = () => {
   const { loadMoreRef } = useInfiniteScroll({
     totalPages,
     loading,
+    // TODO: check double api call on first render
     onLoadMore: () => setPage((prevPage) => prevPage + 1),
   });
 
   return (
-    <>
-      <div
-        className="mb-20 flex flex-col gap-5 overflow-y-auto"
-        style={{ maxHeight: "calc(100vh - 350px)" }}
-      >
-        {jobs.length > 0 ? (
-          jobs.map((job, index) => (
-            <JobPostCard key={index} jobPost={job} trunc={false} />
-          ))
-        ) : (
-          <p>Loading jobs...</p>
-        )}
-        <div
-          ref={loadMoreRef}
-          className="flex h-10 w-full items-center justify-center"
-        >
-          {loading && <p>Loading more jobs...</p>}
-        </div>
+    <div
+      className="mb-20 flex flex-col gap-5 overflow-y-auto"
+      style={{ maxHeight: "calc(100vh - 350px)" }}
+    >
+      <JobsList jobs={jobs} />
+      <div ref={loadMoreRef}>
+        <LoadingIndicator loading={loading} />
       </div>
-    </>
+    </div>
   );
 };
+
+//TODO: move to own component
+const JobsList = ({ jobs }: { jobs: JobPost[] }) => (
+  <>
+    {jobs.length > 0 &&
+      jobs.map((job, index) => (
+        <JobPostCard key={index} jobPost={job} trunc={false} />
+      ))}
+  </>
+);
+
+const LoadingIndicator = ({ loading }: { loading: boolean }) => (
+  <div className="flex h-10 w-full items-center justify-center">
+    {loading && <p>Loading more jobs...</p>}
+  </div>
+);
