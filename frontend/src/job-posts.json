@@ -49044,5 +49044,212 @@
             "Node.js"
         ],
         "id": 1547
+    },
+    {
+        "sender": "@Chcofre",
+        "contact_email": [
+            "reclutamiento@mediprotek.com"
+        ],
+        "contact_phone": [],
+        "links": [
+            "socket.io",
+            "socket.io",
+            "socket.io"
+        ],
+        "text": "Hola,\nSomos MEDIPROTEK, una startup de telemedicina en pleno crecimiento. Estamos reinventando los servicios de telemedicina en Chile y otros pa\u00edses. Para seguir creciendo, buscamos 3 perfiles Senior, Semi-senior y Junior para unirse a nuestro equipo de trabajo.\n\u00bfQu\u00e9 te espera en Mediprotek?\n1.\u2060 \u2060Desaf\u00edos y proyecci\u00f3n laboral: Trabajar\u00e1s en el desarrollo de aplicaciones usando tecnolog\u00edas de punta, aprendiendo sobre est\u00e1ndares e integraciones en el \u00e1rea de salud. \n2.\u2060 \u2060Aportar a la salud: Tendr\u00e1s la oportunidad de acercar la salud a m\u00e1s personas mediante la telemedicina, mejorando la atenci\u00f3n de pacientes con las \u00faltimas tecnolog\u00edas.\n\ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb Desarrollador Web Fullstack Senior o Semi-senior:\n1.\u2060 \u2060Responsabilidades  \n   - Desarrollar y optimizar aplicaciones web con NestJS (backend) y Angular (frontend).\n   - Implementar microservicios con Kubernetes y contenedores Docker.\n   - Optimizar bases de datos con TypeORM y gestionar servicios con Redis.\n   - Desarrollar soluciones en tiempo real con \nSocket.io\n y RabbitMQ.\n2.\u2060 \u2060Requisitos m\u00ednimos  \n   - Experiencia s\u00f3lida con NestJS, Angular, y TypeScript.\n   - Conocimientos de Docker y Kubernetes para contenedorizaci\u00f3n.\n3.\u2060 \u2060Conocimientos deseables  \n   - Go para microservicios, Redis para cach\u00e9, y SendGrid para notificaciones.\nSueldo competitivo ($2.000.000 - $3.000.000)  \n\ud83d\udc68\u200d\ud83d\udcbbDesarrollador Mobile Fullstack Senior o Semi-senior:\n1.\u2060 \u2060Responsabilidades  \n   - Desarrollar aplicaciones m\u00f3viles con Flutter (iOS/Android) y web con Angular.\n   - Optimizar aplicaciones m\u00f3viles y web, conectando APIs NestJS.\n   - Gestionar el ciclo de vida de aplicaciones desde el desarrollo hasta el despliegue en tiendas.   \n2.\u2060 \u2060Requisitos m\u00ednimos  \n   - Experiencia con Flutter, NestJS, y Angular.\n   - Publicaci\u00f3n y mantenimiento de apps en Google Play y App Store.\n3.\u2060 \u2060Conocimientos deseables  \n   - \nSocket.io\n, Redis, RabbitMQ y experiencia en despliegue con Docker.\nSueldo competitivo ($2.500.000 - $3.500.000)  \n\ud83d\udc68\u200d\ud83d\udcbbDesarrollador Web Fullstack Junior:\n1.\u2060 \u2060Responsabilidades  \n   - Desarrollar aplicaciones web con NestJS (backend) y Angular (frontend).\n   - Utilizar Docker y colaborar en microservicios.   \n2.\u2060 \u2060Requisitos m\u00ednimos  \n   - Experiencia con NestJS, Angular y TypeScript.\n3.\u2060 \u2060Conocimientos deseables  \n   - RabbitMQ, \nSocket.io\n, Redis, y SendGrid.\nSueldo competitivo ($1.600.000 - $2.200.000)  \n\u00bfQu\u00e9 ofrece MEDIPROTEK?\n1.\u2060 \u2060Oportunidad de crecimiento dentro de la empresa.  \n2.\u2060 \u2060Entorno de trabajo din\u00e1mico con proyectos innovadores en plataformas web y m\u00f3viles.  \n3.\u2060 \u2060Flexibilidad laboral y modalidad h\u00edbrida.  \n4.\u2060 \u2060Herramientas y tecnolog\u00edas modernas (Google Cloud, Docker, Kubernetes, etc.).\nSi est\u00e1s interesado, env\u00eda tu CV a \nreclutamiento@mediprotek.com",
+        "date": {
+            "day": "13",
+            "month": "10",
+            "year": "2024",
+            "time": "07:27:06"
+        },
+        "company_name": "MEDIPROTEK",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1600000,
+            "max_bound": 3500000
+        },
+        "technologies": [
+            "NestJS",
+            "Angular",
+            "TypeScript",
+            "Docker",
+            "Kubernetes",
+            "Flutter",
+            "Socket.io",
+            "RabbitMQ",
+            "Redis",
+            "SendGrid"
+        ],
+        "id": 1548
+    },
+    {
+        "sender": "@mstuardo",
+        "contact_email": [
+            "max.stuardo@banca.me"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "Banca.Me\n\u2728  Somos una fintech que ofrece soluciones de financiamiento sin fricci\u00f3n a personas utilizando servicios propios que incorporan los \u00faltimos avances tecnol\u00f3gicos y Open Finance. Entregamos nuestro servicio directo a personas o mediante finanzas embebidas usando nuestra Partners API y partnerships con diferentes instituciones.\nCon esto, podemos evaluar a m\u00e1s personas que el sistema financiero tradicional y ofrecer productos reales y tangibles a quienes lo necesitan. Existimos para crear un ecosistema financiero de acceso global y con productos para todos y todas.\n\ud83e\udd29 \u00a1Necesitamos gente que forme parte de nuestro equipo de tecnolog\u00eda porque nos faltan manos para tantos desaf\u00edos que se nos vienen encima! Buscamos personas que quieran unirse a la cultura Banca.Me, que adem\u00e1s de tener capacidades t\u00e9cnicas o ser aprendices veloces, tengan un fit cultural con nosotros.\n\ud83d\udee0 Nuestro stack tecnol\u00f3gico incluye:\n\ud83d\udd39 NodeJS - TypeScript\n\ud83d\udd3b React - TypeScript\n\ud83d\udd39 FastApi - Python\n\ud83d\udd3b Airflow - Python\n\ud83d\udd3b Web Scrapers - Python\n\u2601 AWS y GCP\n\u2601 Terraform\n\ud83c\udfb0 PostgreSQL\n\ud83c\udfc6 Los perfiles que buscamos actualmente son:\n\ud83e\udd6d Ingeniero Backend semi-senior/senior: (desde $2.5M):\nEstamos buscando un perfil con experiencia para aportar en:\n- Desarrollo de APIs financieras.\n- Modularizaci\u00f3n de c\u00f3digo para escalar y configurar por separado las versiones de nuestra app.\n- Modificacion de infraestructura como codigo para escalar diferentes APIs.\n- Mejoras internas del equipo tecnico (pipelines, procesos, etc).\nBuscamos un/a candidato/a proactivo/a con experiencia demostrable en backend y/o cloud. Este rol tiene opciones de liderar una de esas dos \u00e1reas.\nPerfiles deseables:\n- Ingenieros full stack, backend o cloud con al menos 2 a\u00f1os de experiencia profesional.\n\ud83e\udd5d Practicante Fullstack ($400k) y  Trabajo de t\u00edtulo Fullstack ($800k):\nIntroducci\u00f3n a herramientas de frontend y backend, adem\u00e1s de buenas pr\u00e1cticas de desarrollo en proyectos varios tales como:\n- Implementaci\u00f3n de herramientas de QA automatizado para frontend\n - Refactorizaci\u00f3n de aplicaciones de frontend\n - Migraci\u00f3n de aplicaciones antiguas a una nueva aplicaci\u00f3n de frontend con un patr\u00f3n de dise\u00f1o establecido\n- Mejoras de productos actuales, considerando l\u00f3gica y vistas\nPerfiles deseables:\n- Estudiantes de carrera relacionadas a ciencias de la computaci\u00f3n.\n El conocimiento previo de las tecnolog\u00edas mencionadas es plus. El \u00fanico requisito es que tengan intenciones de una relaci\u00f3n a largo plazo con nuestro equipo.\n\ud83d\udc68\u200d\ud83d\udcbb Trabajamos de manera h\u00edbrida, estando localizada nuestra sede a pasos del Metro Tobalaba\n\u00a1Escr\u00edbeme a \nmax.stuardo@banca.me\n o env\u00edame un mensaje por Telegram si tienes inter\u00e9s en trabajar con nosotros!",
+        "date": {
+            "day": "13",
+            "month": "10",
+            "year": "2024",
+            "time": "07:27:51"
+        },
+        "company_name": "Banca.Me",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 400000,
+            "max_bound": 2500000
+        },
+        "technologies": [
+            "NodeJS",
+            "TypeScript",
+            "React",
+            "FastApi",
+            "Python",
+            "Airflow",
+            "Web Scrapers",
+            "AWS",
+            "GCP",
+            "Terraform",
+            "PostgreSQL"
+        ],
+        "id": 1549
+    },
+    {
+        "sender": "@jeichholz",
+        "contact_email": [
+            "joaquin.eichholz@mercadolibre.cl"
+        ],
+        "contact_phone": [],
+        "links": [],
+        "text": "Product Specialist (x1) / Analista Senior de Producto (x1) - MERCADO LIBRE Ads  \n \n\u00bfQu\u00e9 hace el equipo de Product Ads?  \n- Se encarga de optimizar la oferta de productos patrocinados en el marketplace para que los clientes encuentren lo que necesitan sujeto a que cada vendedor cumpla con su rentabilidad objetivo y presupuesto.  \n- Define Qu\u00e9 y D\u00f3nde se muestra publicidad en el Marketplace.  \n- Trabaja junto a equipos de Ingenier\u00eda, ML y BI para iterar algoritmos, modelos de datos y sistemas recomendadores.  \n \n\u00bfQu\u00e9 har\u00e1s?  \n- Liderar iniciativas en nuestro complejo sistema de publicidad  \n- Trabajar con algoritmos de recomendaci\u00f3n, modelos de bidding y subastas  \n- Definir iniciativas, estimaciones y propuestas de pruebas  \n- Analizar puestas en producci\u00f3n y tomar decisiones basadas en resultados  \n \n\u00bfQu\u00e9 buscamos?  \n- S\u00f3lido manejo de SQL y herramientas de visualizaci\u00f3n de datos  \n- Fuerte capacidad anal\u00edtica  \n- Proactividad y autonom\u00eda en el trabajo \n \nModalidad:  \n- Full time \n- Hibrido  \n- Cargo basado en Chile o Argentina o Uruguay o Brasil con foco en Mercado Libre Latam \nBanda sujeta a seniority:\n- Analista sr 2.5M - 4M \n- Specialist 4M - 6M\n \nContacto: Joaqu\u00edn Eichholz +56 9 9632 4787 \njoaquin.eichholz@mercadolibre.cl",
+        "date": {
+            "day": "13",
+            "month": "10",
+            "year": "2024",
+            "time": "07:29:01"
+        },
+        "company_name": "MERCADO LIBRE",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 2500000,
+            "max_bound": 6000000
+        },
+        "technologies": [
+            "SQL",
+            "algorithms",
+            "bidding models",
+            "data visualization tools"
+        ],
+        "id": 1550
+    },
+    {
+        "sender": "@trencoret",
+        "contact_email": [],
+        "contact_phone": [],
+        "links": [
+            "",
+            "https://spotai.notion.site/growth-engineer-spot-ai-10b41a6465a080c78a16de2167dde4ea"
+        ],
+        "text": "[Full time Growth Engineer - Startup basada en San Francisco, California]\nTe gusta la intersecci\u00f3n entre programar y crecer las ventas de una empresa? :rocket:\nEn Spot AI estamos buscando un Growth Engineer que nos ayude a construir nuestra estrategia de outbound growth.\nSpot AI es la empresa de Video Intelligence (Video AI) que esta creciendo m\u00e1s r\u00e1pido en USA. El a\u00f1o pasado pasamos los \n$XXM\n ARR, levantamos nuestra serie B1 de los mejores VCs de Silicon Valley, y ya somos ~150 empleados.\nPartir\u00e1s escalando nuestro canal de automated outbound, haciendo AI email personalization a escala integrando Clay/APIs/Google Scripts/LLMs/Hubspot/Salesforce.\nEl rol es h\u00edbrido, podr\u00e1s trabajar remoto y colaborar con el resto del equipo de Chile. El sueldo l\u00edquido es de 3.1M-3.9M CLP, dependiendo de la experiencia. Buscamos a alguien con 3-5 a\u00f1os de experiencia.\nSi te parece interesante, lee el detalle en el siguiente link y escr\u00edbeme si tienes cualquier duda:\nhttps://spotai.notion.site/Growth-Engineer-Spot-AI-10b41a6465a080c78a16de2167dde4ea",
+        "date": {
+            "day": "13",
+            "month": "10",
+            "year": "2024",
+            "time": "07:30:48"
+        },
+        "company_name": "Spot AI",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 3100000,
+            "max_bound": 3900000
+        },
+        "technologies": [
+            "AI email personalization",
+            "Clay",
+            "APIs",
+            "Google Scripts",
+            "LLMs",
+            "Hubspot",
+            "Salesforce"
+        ],
+        "id": 1551
+    },
+    {
+        "sender": "@sgutgar",
+        "contact_email": [
+            "sergio@turboshop.cl"
+        ],
+        "contact_phone": [],
+        "links": [
+            "http://www.turboshop.cl"
+        ],
+        "text": "[Desarrollador Full Stack - Trabajo de T\u00edtulo]\n\u00a1Hola a todos!\nSomos Turboshop, una startup que busca revolucionar la venta de repuestos automotrices \ud83d\ude97\ud83d\udd27. Estamos desarrollando tecnolog\u00eda de punta para simplificar y optimizar la experiencia de compra y venta de repuestos, y queremos que seas parte de este emocionante desaf\u00edo.\n\u00bfA qui\u00e9n buscamos?\nEstamos en busca de una persona motivada que est\u00e9 buscando realizar su Trabajo de T\u00edtulo, con ganas de aprender y crecer profesionalmente en un entorno din\u00e1mico.\n\u00bfQu\u00e9 har\u00e1s?\n- Desarrollo y mejora de nuestra p\u00e1gina web.\n- An\u00e1lisis de datos y desarrollo de herramientas de inteligencia artificial.\n- Desarrollo backend y mantenimiento de arquitectura.\n- Participar\u00e1s en la toma de decisiones de una empresa en etapa temprana, donde tus opiniones, experiencia y trabajo tendr\u00e1n un gran impacto en el futuro de la empresa.\nStack Tecnol\u00f3gico:\n- Frontend: Next.js, TypeScript.\n- Backend: Nest.js, Node.js, PostgreSQL.\n- An\u00e1lisis de Datos: Python.\nNo es requisito conocer todas estas tecnolog\u00edas, lo importante es tu motivaci\u00f3n y ganas de aprender. \ud83d\ude80\nTipo de trabajo:\n- Full-time presencial, con posibilidad de trabajo h\u00edbrido espor\u00e1dico.\n- Ambiente de trabajo colaborativo y horario flexible.\n\u00bfQu\u00e9 ofrecemos?\n- Sueldo l\u00edquido entre $1.000.000 y $1.500.000 CLP, seg\u00fan experiencia.\n- Oficinas en Vitacura \ud83c\udfe2, con excelente acceso.\n- D\u00eda libre en tu cumplea\u00f1os \ud83e\udd73.\n- Flexibilidad para home office \ud83d\udc69\u200d\ud83d\udcbb.\n- Horario flexible, idealmente de 9am a 6pm, y los viernes salimos a las 4pm \ud83c\udf7b.\n- Asados y salidas culinarias recurrentes \ud83c\udf7d\ufe0f (invitadas por nuestro CEO \ud83e\udee1).\n- Oportunidad de crecer profesionalmente en una startup en expansi\u00f3n.\n- Participaci\u00f3n en proyectos desafiantes y de alto impacto.\n- Posibilidad de extender la relaci\u00f3n laboral con un contrato a largo plazo.\nSobre Turboshop\nEn Turboshop estamos transformando la industria de los repuestos automotrices, desarrollando soluciones tecnol\u00f3gicas innovadoras para facilitar la vida de talleres y tiendas de repuestos. Conoce m\u00e1s sobre nosotros en \nhttp://www.turboshop.cl\n\u00bfC\u00f3mo postular?\nSi te entusiasma la idea de unirte a nuestro equipo y ser parte de este gran proyecto, env\u00eda tu CV a \nsergio@turboshop.cl\n \ud83d\udce7 o cont\u00e1ctanos al +56 9 7129 6383 \ud83d\udcf2.\n\u00a1\u00danete a nosotros y revolucionemos juntos el mundo de los repuestos! \ud83d\udd25",
+        "date": {
+            "day": "13",
+            "month": "10",
+            "year": "2024",
+            "time": "07:32:16"
+        },
+        "company_name": "Turboshop",
+        "remote_work_policy": "hybrid",
+        "employment_type": "trabajo de t\u00edtulo",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1000000,
+            "max_bound": 1500000
+        },
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Nest.js",
+            "Node.js",
+            "PostgreSQL",
+            "Python"
+        ],
+        "id": 1552
+    },
+    {
+        "sender": "@diegoducci",
+        "contact_email": [
+            "personas@costasurmat.cl"
+        ],
+        "contact_phone": [],
+        "links": [
+            "https://spurious-sailfish-3dd.notion.site/l-der-de-tecnolog-a-en-puya-367057ea1c624947b04b0c29f3552140"
+        ],
+        "text": "L\u00edder de tecnolog\u00eda en PUYA  \n \nSobre nosotros  \n \nSomos una ferreter\u00eda, ubicados en Matanzas \ud83c\udf0a\ud83c\udfc4\ud83c\udfd6\ufe0f\ud83c\udf34 (Vienen nuevos lugares).  \n \nQueremos que construir sea m\u00e1s f\u00e1cil. Por eso estamos cambiando la forma de hacer las compras. Buscamos ofrecer todas las soluciones en un mismo lugar.  \n \nPara esto, usamos tecnolog\u00eda, automatizando procesos que nos permiten ser m\u00e1s eficientes. Siempre estamos probando herramientas y plataformas que nos permitan mejorar el flujo de informaci\u00f3n entre los datos y la operaci\u00f3n, para movernos r\u00e1pido, bas\u00e1ndonos en nuestros datos y las solicitudes de clientes. El motor por donde fluye todo es un ERP llamado Odoo.  \n \nActualmente ya procesamos y despachamos m\u00e1s de 160 \u00f3rdenes/18.000 kilos en mercader\u00eda al d\u00eda. Esto crece cada mes y planeamos abrir nuevas localidades.  \n \nCu\u00e1les ser\u00e1n tus desaf\u00edos  \n \nSabemos que ninguna persona puede ser experta en 5.000+ productos, pero con software, la arquitectura correcta e informaci\u00f3n detallada, podemos actuar como expertos en 5.000 y muchos m\u00e1s productos.  \n \nPara esto ser\u00e1 necesario:  \n \n- Implementar soluciones innovadoras en atenci\u00f3n al cliente. Estamos probando usar Darwin AI o Vambe para mejorar la atenci\u00f3n por WhatsApp usando la IA y la API de Odoo.  \n- Automatizar y mejorar flujos internos.  \n- Dirigir el an\u00e1lisis de datos:  \n    - Optimizar y complementar las bases de datos de productos para garantizar informaci\u00f3n precisa y completa.  \n    - Usos de nuevas herramientas: Estamos evaluando la transcripci\u00f3n de grabaciones para solicitudes que no sean resueltas en los puntos de venta.  \n    - Complementar la reporter\u00eda existente buscando medir lo que importa.  \n- Liderar la implementaci\u00f3n de nuevas tecnolog\u00edas y buscar \u00e1reas de mejoras.  \n \nQu\u00e9 esperamos de ti:  \n \n- Que tengas experiencia programando y que te guste aplicarlo para que el trabajo de tus compa\u00f1eros sea m\u00e1s f\u00e1cil.  \n- Que tengas la misma curiosidad que nosotros sobre la implementaci\u00f3n de nuevas herramientas.  \n- Que quieras aprender siempre y tengas las ganas de involucrarte en el trabajo, pensando en elevar nuestro nivel de servicio.  \n- Si tienes experiencia en manejo de frameworks MVC ser\u00eda buen\u00edsimo.  \n \nBeneficios  \n \n- Stock options.  \n- Sueldo desde 1.9M.  \n- Trabajo h\u00edbrido y flexible. Puedes trabajar semanas enteras desde d\u00f3nde quieras, pero necesitar\u00e1s venir a compartir cada cierto tiempo, para sentir las necesidades del equipo.  \n- Oficina a menos de 2 kil\u00f3metros de la playa (Podemos ofrecer un lugar para alojar tambi\u00e9n).  \n- Asado mensual con todo el equipo.  \n- Un ambiente de trabajo din\u00e1mico que sue\u00f1a con mejorar nuestra industria.  \n \n\u00bfQuieres saber m\u00e1s?  \n \nM\u00e1ndanos un mail a \npersonas@costasurmat.cl\n. \nhttps://spurious-sailfish-3dd.notion.site/L-der-de-tecnolog-a-en-PUYA-367057ea1c624947b04b0c29f3552140",
+        "date": {
+            "day": "13",
+            "month": "10",
+            "year": "2024",
+            "time": "07:36:52"
+        },
+        "company_name": "PUYA",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1900000,
+            "max_bound": null
+        },
+        "technologies": [
+            "Odoo",
+            "Darwin AI",
+            "Vambe",
+            "MVC frameworks"
+        ],
+        "id": 1553
     }
 ]
