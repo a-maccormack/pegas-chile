@@ -76,6 +76,6 @@ If you want to submit a job post, create an `issue` including the following data
     "max_bound": "<man-bound-for-position>"
   },
   "technologies": ["<any-tecnologies-the-applicant-should-know>"],
-  "id": 1529
+  "id": null
 }
 ```
