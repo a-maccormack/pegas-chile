@@ -49251,5 +49251,38 @@
             "MVC frameworks"
         ],
         "id": 1553
+    },
+    {
+        "id": 1554,
+        "company_name": "Neatpagos.com",
+        "remote_work_policy": "hybrid",
+        "employment_type": "fulltime",
+        "salary_range": {
+            "currency": "CLP",
+            "min_bound": 1500000,
+            "max_bound": 3000000
+        },
+        "technologies": [
+            "TypeScript",
+            "Angular",
+            "Node.js",
+            "Cloud Functions",
+            "Firebase"
+        ],
+        "sender": "@cguasch",
+        "contact_email": [
+            "jobs@neatpagos.com"
+        ],
+        "contact_phone": [],
+        "links": [
+            "https://neatpagos.notion.site/Software-Engineer-Web-49ec52bd5f0a4634a2b39cdba30c2a87"
+        ],
+        "text": "Software Engineer Web en Neatpagos.com\n\n### Acerca de Neat:\n\n- ¿Qué es Neat? Neat es una fintech que permite pagar cuentas con tarjeta de crédito, débito y prepago, incluso las cuentas que normalmente transfieres (como el arriendo, el gasto común, etc). Transformamos una tarea mensual, obligatoria y latera, en una experiencia flexible, rápida y organizada. Buscamos que las personas tengan más poder de elección y libertad financiera. Hoy 70.000 personas usan Neat para pagar sus cuentas: ellos son el corazón de lo que hacemos y esto se traduce en que no paramos de crecer.\n\n- Lo que realmente nos hace sobresalir es nuestro equipo: No nos apuramos en contratar y crecer el equipo demasiado rápido porque valoramos mucho la cultura y la colaboración interdisciplinaria.\n\n- Work-Life balance: Por mucho que seamos una startup, entendemos que todos somos personas y que necesitamos tener un equilibrio entre el entorno laboral y no laboral.\n\n- Construyendo una sociedad de buenos pagadores: Con NeatClub, nuestro programa de lealtad, premiamos el buen comportamiento financiero, ayudando a construir una sociedad de buenos pagadores que se benefician por mantener un orden financiero ejemplar.\n\n### Qué harás en Neat:\n\n- Desarrollar y mejorar features: Implementarás nuevas características y mejoras tanto de la interfaz de usuario (UI) como de la experiencia de usuario (UX), buscando siempre oportunidades para hacer que nuestro servicio sea más intuitivo y eficiente.\n\n- Mantener la estabilidad de la plataforma web: Serás responsable de asegurar que nuestro producto web, construido en Angular y conectado a Firebase, funcione de manera eficiente y sin problemas. Esto incluye monitorear y resolver cualquier problema que pueda surgir, y optimizar el rendimiento de la plataforma.\n\n- Responder a incidencias con agilidad: Aunque no trabajamos fuera del horario laboral, se espera que respondas a incidencias de manera rápida durante tu jornada, asegurando la estabilidad continua de nuestra plataforma.\n\n- Realizar testing de calidad: Asegurarás que cada actualización y nueva característica pase por un proceso de testing para mantener la estabilidad de nuestra plataforma de pagos.\n\n- Toma de decisiones técnicas: Tendrás la autonomía para tomar decisiones que mejoren la plataforma, ya sea corrigiendo deuda técnica u optimizando el rendimiento del código.\n\n- Participación en instancias de Shaping: Propondrás ideas para solucionar problemas. Basándonos en la metodología de ShapeUp.\n\n### Nuestro Stack Tecnológico\n\n- TypeScript: Es nuestro lenguaje principal y está presente en todos nuestros proyectos.\n\n- Angular: Utilizamos este framework para el desarrollo web, y este puesto en particular estará enfocado en este entorno.\n\n- Node.js y Cloud Functions: Nuestro backend está construido sobre Node.js.\n\n\n### Qué te ofrecemos:\n\n💸 Sueldo entre $1.500.000-$3.000.000 dependiendo de la experiencia que tengas\n\n🌴 20 días de vacaciones al año\n\n💻 MacBook(de Neat) para trabajar\n\n👴 Un equipo senior con mucha experiencia en *startups*\n\n💡 Oportunidad de pitchear tus ideas de mejoras de producto que lleguen al usuario final de Neat\n\n🎂 Día libre en la semana de tu cumpleaños\n\n🤖 Github Copilot\n\n🏡 20 días de home office (aparte de los 2 de cada semana) para trabajar de la casa y distribuirlos como tu quieras.\n\n👵🏻 APV: Te depositamos 60k mensuales a tu APV de Fintual.\n\nPuedes ver más detalles de la postulación en este Notion: https://neatpagos.notion.site/Software-Engineer-Web-49ec52bd5f0a4634a2b39cdba30c2a87\n\nY cualquier duda también le puedes escribir por Telegram a @cguasch\n\nSi te tincó postular, escríbenos a jobs@neatpagos.com 🤩 enviando tu CV y contándonos por qué te gustaría entrar a Neat.\n",
+        "date": {
+            "day": "21",
+            "month": "10",
+            "year": "2024",
+            "time": "17:39:31"
+        }
     }
 ]

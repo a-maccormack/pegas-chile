@@ -2,7 +2,7 @@ export const HeroSection = () => {
   return (
     <header className="mx-auto mt-10 flex w-[60%] flex-col items-center md:mt-32">
       <div className="w-fit rounded-lg border border-gray-300 px-4 py-2 text-center text-sm font-bold">
-        Última actualización: 13/10/24
+        Última actualización: 21/10/24
       </div>
       <div className="mt-10 text-center font-extrabold lg:max-w-5xl">
         <h1 className="text-2xl md:text-3xl lg:text-5xl">
