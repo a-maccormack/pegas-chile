@@ -1,7 +1,6 @@
 "use client";
 
-// TODO: make into a common component
-import ApiService from "@/services/apiService";
+import { getPaginatedCompanies } from "@/helpers/companiesHelper";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
@@ -10,9 +9,7 @@ import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
 export const CompanyBoardSection = () => {
-  const apiService = new ApiService();
   const router = useRouter();
-
   const searchParams = useSearchParams();
   const pageParam = searchParams.get("page") ?? "1";
 
@@ -21,15 +18,9 @@ export const CompanyBoardSection = () => {
   const [totalPages, setTotalPages] = useState(0);
 
   useEffect(() => {
-    apiService
-      .getCompanies(page)
-      .then((response) => {
-        setCompanies(response.data.companies);
-        setTotalPages(response.data.totalPages);
-      })
-      .catch((error) => {
-        console.error("Error fetching companies:", error);
-      });
+    const response = getPaginatedCompanies(page);
+    setCompanies(response.companies);
+    setTotalPages(response.totalPages);
   }, [page, pageParam]);
 
   const handleNextPage = () => {

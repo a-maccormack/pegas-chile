@@ -1,3 +1,5 @@
+'use client';
+
 import { JobPost } from "@/app/types";
 import React, { useEffect, useState } from "react";
 import {
