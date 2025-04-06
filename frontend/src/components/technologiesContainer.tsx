@@ -1,4 +1,3 @@
-import ApiService from "@/services/apiService";
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
@@ -30,6 +29,7 @@ import {
   faPhp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase, faCode } from "@fortawesome/free-solid-svg-icons";
+import { getTechnologiesByCompanyName, getTechnologiesByPostId } from "@/helpers/technologiesHelper";
 
 interface TechnologiesContainerProps {
   jobId?: number;
@@ -40,23 +40,16 @@ export const TechnologiesContainer: React.FC<TechnologiesContainerProps> = ({
   companyName,
   jobId,
 }) => {
-  const apiService = new ApiService();
   const [companyTechnologies, setCompanyTechnologies] = useState<string[]>([]);
 
   useEffect(() => {
     if (companyName) {
       if (jobId) {
-        apiService
-          .getTechnologiesByPostId(jobId.toString())
-          .then((response) => {
-            setCompanyTechnologies(response.data);
-          });
+        const technologies = getTechnologiesByPostId(jobId);
+        setCompanyTechnologies(technologies);
       } else {
-        apiService
-          .getTechnologiesByCompanyName(companyName)
-          .then((response) => {
-            setCompanyTechnologies(response.data.technologies);
-          });
+        const technologies = getTechnologiesByCompanyName(companyName);
+        setCompanyTechnologies(technologies);
       }
     }
   }, [companyName, jobId]);

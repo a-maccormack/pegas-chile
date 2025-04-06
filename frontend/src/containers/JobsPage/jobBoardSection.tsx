@@ -3,16 +3,14 @@
 // TODO: make into a common component
 import { JobPost } from "@/app/types";
 import { JobPostCard } from "@/components/jobPostCard";
-import ApiService from "@/services/apiService";
+import { getPaginatedJobPosts } from "@/helpers/jobPostsHelper";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
 export const JobBoardSection = () => {
-  const apiService = new ApiService();
   const router = useRouter();
-
   const searchParams = useSearchParams();
   const pageParam = searchParams.get("page") ?? "1";
 
@@ -21,15 +19,9 @@ export const JobBoardSection = () => {
   const [totalPages, setTotalPages] = useState(0);
 
   useEffect(() => {
-    apiService
-      .getJobPosts(page)
-      .then((response) => {
-        setJobs(response.data.posts);
-        setTotalPages(response.data.totalPages);
-      })
-      .catch((error) => {
-        console.error("Error fetching job posts:", error);
-      });
+    const response = getPaginatedJobPosts(page);
+    setJobs(response.posts);
+    setTotalPages(response.totalPages);
   }, [page, pageParam]);
 
   const handleNextPage = () => {

@@ -7,7 +7,7 @@ import { CompanyNameSection } from "@/containers/JobPostPage/companyNameSection"
 import { ContactSection } from "@/containers/JobPostPage/contactSection";
 import { LinkSection } from "@/containers/JobPostPage/linkSection";
 import { JobDetailSection } from "@/containers/JobPostPage/jobDetailSection";
-import ApiService from "@/services/apiService";
+import { getJobPostById } from "@/helpers/jobPostsHelper";
 import { useEffect, useState } from "react";
 import ReactMarkDown from "react-markdown";
 import { DateSection } from "@/containers/JobPostPage/dateSection";
@@ -15,17 +15,20 @@ import { DateSection } from "@/containers/JobPostPage/dateSection";
 export const runtime = "edge";
 
 export default function JobPage({ params }: { params: { jobId: string } }) {
-  const apiService = new ApiService();
   const [jobPost, setJobPost] = useState<JobPost | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    const fetchJobPost = async () => {
+    const fetchJobPost = () => {
       try {
         if (params.jobId) {
-          const response = await apiService.getJobPostById(params.jobId);
-          setJobPost(response.data);
+          const post = getJobPostById(parseInt(params.jobId));
+          if (post) {
+            setJobPost(post);
+          } else {
+            setError("Job post not found");
+          }
         }
       } catch (err) {
         setError("Error fetching job post. Please try again later.");

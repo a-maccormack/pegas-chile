@@ -4,7 +4,7 @@ import { JobPost } from "@/app/types";
 import Container from "@/components/container";
 import { CompanyHeaderSection } from "@/containers/CompanyPage/companyHeaderSection";
 import { CompanyPostsSection } from "@/containers/CompanyPage/companyPostsSection";
-import ApiService from "@/services/apiService";
+import { getJobPostsByCompanyName } from "@/helpers/jobPostsHelper";
 import { useEffect, useState } from "react";
 
 export const runtime = "edge";
@@ -14,7 +14,6 @@ export default function CompanyPage({
 }: {
   params: { companyName: string };
 }) {
-  const apiService = new ApiService();
   const [companyName, setCompanyName] = useState("");
   const [companyJobPosts, setCompanyJobPosts] = useState<JobPost[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
@@ -28,11 +27,10 @@ export default function CompanyPage({
 
     setCompanyName(decodeURIComponent(params.companyName));
     setLoading(true);
-    apiService.getJobPostsByCompanyName(params.companyName).then((response) => {
-      const jobPosts = response.data;
-      setCompanyJobPosts(jobPosts);
-      setLoading(false);
-    });
+    
+    const jobPosts = getJobPostsByCompanyName(params.companyName);
+    setCompanyJobPosts(jobPosts);
+    setLoading(false);
   }, [params.companyName]);
 
   return (

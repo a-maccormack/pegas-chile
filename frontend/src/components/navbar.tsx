@@ -4,33 +4,23 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import SearchBar from "@/components/searchBar";
 import Logo from "@/assets/navbar/logo.png";
-import ApiService from "@/services/apiService";
 import Link from "next/link";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { searchForCompaniesByTerm } from "@/helpers/companiesHelper";
 
 function Navbar() {
-  const apiService = new ApiService();
   const [searchResults, setSearchResults] = useState<string[]>([]);
   const [searchTerm, setSearchTerm] = useState<string>("");
 
   useEffect(() => {
-    const fetchSearchResults = async () => {
+    const handler = setTimeout(() => {
       if (searchTerm) {
-        try {
-          const response =
-            await apiService.searchForCompaniesByTerm(searchTerm);
-          setSearchResults(response.data.companies);
-        } catch (error) {
-          console.error("Error fetching search results:", error);
-        }
+        const results = searchForCompaniesByTerm(searchTerm);
+        setSearchResults(results);
       } else {
         setSearchResults([]);
       }
-    };
-
-    const handler = setTimeout(() => {
-      fetchSearchResults();
     }, 300);
 
     return () => {
