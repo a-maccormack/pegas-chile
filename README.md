@@ -37,7 +37,7 @@ The scraping process targets the [DCCEmpleo Telegram Channel](https://t.me/DCCEm
 
 ## 🤖 LLM Assistance
 
-I used GPT-4 mini to assist in processing and categorizing job posts where manual effort was too time-consuming. You can view the LLM prompt I used here.
+I used GPT-4 mini to assist in processing and categorizing job posts where manual effort was too time-consuming. You can view the LLM prompt I used [here](./processing/prompt.txt).
 
 ## Frontend
 
@@ -76,6 +76,6 @@ If you want to submit a job post, create an `issue` including the following data
     "max_bound": "<man-bound-for-position>"
   },
   "technologies": ["<any-tecnologies-the-applicant-should-know>"],
-  "id": 1529
+  "id": <last_job_id + 1>
 }
 ```
