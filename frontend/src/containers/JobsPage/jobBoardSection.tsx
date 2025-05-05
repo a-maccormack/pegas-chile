@@ -1,92 +1,68 @@
 "use client";
 
-// TODO: make into a common component
 import { JobPost } from "@/app/types";
 import { JobPostCard } from "@/components/jobPostCard";
 import ApiService from "@/services/apiService";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useInfiniteScroll } from "@/hooks/useInfiniteScroll"; // Import custom hook
 
 export const JobBoardSection = () => {
   const apiService = new ApiService();
-  const router = useRouter();
 
-  const searchParams = useSearchParams();
-  const pageParam = searchParams.get("page") ?? "1";
-
-  const [page, setPage] = useState<number>(parseInt(pageParam));
-  const [jobs, setJobs] = useState<JobPost[] | null>(null);
+  const [jobs, setJobs] = useState<JobPost[]>([]);
+  const [page, setPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState(0);
+  const [loading, setLoading] = useState(false);
+
+  const fetchJobs = async () => {
+    setLoading(true);
+    try {
+      const response = await apiService.getJobPosts(page);
+      setJobs((prevJobs) => [...prevJobs, ...response.data.posts]);
+      setTotalPages(response.data.totalPages);
+    } catch (error) {
+      console.error("Error fetching job posts:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    apiService
-      .getJobPosts(page)
-      .then((response) => {
-        setJobs(response.data.posts);
-        setTotalPages(response.data.totalPages);
-      })
-      .catch((error) => {
-        console.error("Error fetching job posts:", error);
-      });
-  }, [page, pageParam]);
+    fetchJobs();
+  }, [page]);
 
-  const handleNextPage = () => {
-    if (page < totalPages) {
-      const newPage = page + 1;
-      setPage(newPage);
-      router.push(`?page=${newPage}`);
-    }
-  };
-
-  const handlePreviousPage = () => {
-    if (page > 1) {
-      const newPage = page - 1;
-      setPage(newPage);
-      router.push(`?page=${newPage}`);
-    }
-  };
+  const { loadMoreRef } = useInfiniteScroll({
+    totalPages,
+    loading,
+    // TODO: check double api call on first render
+    onLoadMore: () => setPage((prevPage) => prevPage + 1),
+  });
 
   return (
-    <>
-      <div className="my-5 flex items-center justify-between">
-        <button
-          className={`rounded bg-green-600 px-4 py-2 text-white ${
-            page === 1 ? "cursor-not-allowed opacity-50" : ""
-          }`}
-          onClick={handlePreviousPage}
-          disabled={page === 1}
-        >
-          <FontAwesomeIcon icon={faArrowLeft} />
-        </button>
-
-        <span className="text-xl">
-          Página {page} de {totalPages}
-        </span>
-        <button
-          className={`rounded bg-green-600 px-4 py-2 text-white ${
-            page === totalPages ? "cursor-not-allowed opacity-50" : ""
-          }`}
-          onClick={handleNextPage}
-          disabled={page === totalPages}
-        >
-          <FontAwesomeIcon icon={faArrowRight} />
-        </button>
+    <div
+      className="mb-20 flex flex-col gap-5 overflow-y-auto"
+      style={{ maxHeight: "calc(100vh - 350px)" }}
+    >
+      <JobsList jobs={jobs} />
+      <div ref={loadMoreRef}>
+        <LoadingIndicator loading={loading} />
       </div>
-
-      <div
-        className="mb-20 flex flex-col gap-5 overflow-y-auto"
-        style={{ maxHeight: "calc(100vh - 350px)" }}
-      >
-        {jobs && jobs.length > 0 ? (
-          jobs.map((job, index) => (
-            <JobPostCard key={index} jobPost={job} trunc={false} />
-          ))
-        ) : (
-          <p>Loading jobs...</p>
-        )}
-      </div>
-    </>
+    </div>
   );
 };
+
+//TODO: move to own component
+const JobsList = ({ jobs }: { jobs: JobPost[] }) => (
+  <>
+    {jobs.length > 0 &&
+      jobs.map((job, index) => (
+        <JobPostCard key={index} jobPost={job} trunc={false} />
+      ))}
+  </>
+);
+
+const LoadingIndicator = ({ loading }: { loading: boolean }) => (
+  <div className="flex h-10 w-full items-center justify-center">
+    {loading && <p>Loading more jobs...</p>}
+  </div>
+);
